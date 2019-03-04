@@ -1,0 +1,170 @@
+/* green: #49900D, yellow: #CBBA00 */
+/* Title Font: Comfortaa Bold 700 
+Subheading Font: Spinnaker Regular 400 
+Text Font: Ubuntu Regular 400 */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+    font-family: Ubuntu;   
+}
+
+.logo {
+    max-height: 120%;
+    max-width: auto;
+    align: center;
+}
+
+.navbar-inverse {
+    border-color: #49900D;
+    border-width: 0px;
+    border-radius: 0;
+    width: 100%;
+    display: block;
+    float: left;
+    background-color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #CBBA00;
+    background-color: #49900D;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #CBBA00;
+}
+
+.dropdown-menu {
+    background-color: #49900D;
+    color: #CBBA00;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: #49900D;
+    color: #CBBA00;    
+}
+
+.dropdown-menu > li > a {
+    color: #CBBA00;
+}
+
+.dropdown-menu > li > a:hover {
+    color: #49900D;
+    background-color: #CBBA00;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    display: block;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding: 0px 0px 10px 0px;
+}
+
+.full {
+    max-width: 100%;
+    max-height: 540px;
+}
+
+h2 {
+    font-family: Ubuntu;
+}
+
+p {
+    font-family: Ubuntu;
+    font-size: 18px;
+    text-align: left;
+}
+
+li {
+    font-family: Ubuntu;
+    font-size: 18px;
+    text-align: left;
+}
+
+.mrv {
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.name {
+    font-size:22px;
+}
+
+.contact {
+    text-align: left;
+}
+
+a {
+    color: #49900D;
+}
+
+a:hover {
+    color: #CBBA00;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #CBBA00;
+    text-decoration: none;
+}
+
+.map {
+    width: 100%;
+    min-height: 600px;
+}
+
+.compmap {
+    width: 100%;
+    min-height: 400px;
+}
+.singlesponsor {
+    max-width: 25%
+}
+
+.duosponsor {
+    max-width: 66.666666666%
+}
+
+.triosponsor {
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #CBBA00;
+    color: #fff;
+}
+
+th {
+    text-align: center;
+}
+
+.home {
+    max-height: 1000px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    margin: auto;
+}
+
+.footer {
+  padding: 10px 0px 0px 0px;
+  background-color: #CBBA00;
+}
+
+.btn-primary {
+    background-color: #49900D;
+    color: #CBBA00;
+}
