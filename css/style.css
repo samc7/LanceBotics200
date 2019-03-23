@@ -5,7 +5,8 @@ Text Font: Ubuntu Regular 400 */
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 body {
-    font-family: Ubuntu;   
+    font-family: Ubuntu;
+	overflow-x: hidden;
 }
 
 .logo {
