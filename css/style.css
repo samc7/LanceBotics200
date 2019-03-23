@@ -167,3 +167,18 @@ th {
     background-color: #49900D;
     color: #CBBA00;
 }
+
+@media (min-width: 0px) and (max-width: 1000000px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}
