@@ -1,4 +1,4 @@
-/* green: #49900D, yellow: #CBBA00 */
+/* green: #5ab210, yellow: #ecd600 */
 /* Title Font: Comfortaa Bold 700 
 Subheading Font: Spinnaker Regular 400 
 Text Font: Ubuntu Regular 400 */
@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-inverse {
-    border-color: #49900D;
+    border-color: #5ab210;
     border-width: 0px;
     border-radius: 0;
     width: 100%;
@@ -26,31 +26,31 @@ body {
 }
 
 .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
-    color: #CBBA00;
-    background-color: #49900D;
+    color: #ecd600;
+    background-color: #5ab210;
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #CBBA00;
+    color: #ecd600;
 }
 
 .dropdown-menu {
-    background-color: #49900D;
-    color: #CBBA00;
+    background-color: #5ab210;
+    color: #ecd600;
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
-    background-color: #49900D;
-    color: #CBBA00;    
+    background-color: #5ab210;
+    color: #ecd600;    
 }
 
 .dropdown-menu > li > a {
-    color: #CBBA00;
+    color: #ecd600;
 }
 
 .dropdown-menu > li > a:hover {
-    color: #49900D;
-    background-color: #CBBA00;
+    color: #5ab210;
+    background-color: #ecd600;
 }
 
 .main {
@@ -104,16 +104,16 @@ li {
 }
 
 a {
-    color: #49900D;
+    color: #5ab210;
 }
 
 a:hover {
-    color: #CBBA00;
+    color: #ecd600;
     text-decoration: none;
 }
 
 a:visited {
-    color: #49900D;
+    color: #5ab210;
     text-decoration: none;
 }
 
@@ -143,7 +143,7 @@ table {
 }
 
 thead {
-    background-color: #CBBA00;
+    background-color: #ecd600;
     color: #fff;
 }
 
@@ -161,12 +161,12 @@ th {
 
 .footer {
   padding: 10px 0px 0px 0px;
-  background-color: #CBBA00;
+  background-color: #ecd600;
 }
 
 .btn-primary {
-    background-color: #49900D;
-    color: #CBBA00;
+    background-color: #5ab210;
+    color: #ecd600;
 }
 
 @media (min-width: 0px) and (max-width: 1000000px) {
