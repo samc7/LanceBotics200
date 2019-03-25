@@ -1,11 +1,10 @@
 /* green: #5ab210, yellow: #ecd600 */
-/* Title Font: Comfortaa Bold 700 
-Subheading Font: Spinnaker Regular 400 
-Text Font: Ubuntu Regular 400 */
+
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 body {
-    font-family: Ubuntu;
+    font-family: 'Nunito', sans-serif;
 	overflow-x: hidden;
 }
 
@@ -72,17 +71,17 @@ body {
 }
 
 h2 {
-    font-family: Ubuntu;
+    font-family: 'Nunito', sans-serif;
 }
 
 p {
-    font-family: Ubuntu;
+    font-family: 'Nunito', sans-serif;
     font-size: 18px;
     text-align: left;
 }
 
 li {
-    font-family: Ubuntu;
+    font-family: 'Nunito', sans-serif;
     font-size: 18px;
     text-align: left;
 }
@@ -169,7 +168,7 @@ th {
     color: #ecd600;
 }
 
-@media (min-width: 0px) and (max-width: 1280px) {
+@media (min-width: 0px) and (max-width: 1100px) {
     .navbar-collapse.collapse {
         display: none !important;
     }
