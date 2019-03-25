@@ -47,8 +47,8 @@ body {
 }
 
 .dropdown-menu > li > a:hover {
-    color: #5ab210;
-    background-color: #ecd600;
+    color: #ecd600;
+    background-color: #5ab210;
 }
 
 .main {
