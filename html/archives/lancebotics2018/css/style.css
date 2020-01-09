@@ -1,0 +1,194 @@
+/* green: #5ab210, yellow: #ecd600 */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body {
+    font-family: 'Nunito', sans-serif;
+	overflow-x: hidden;
+}
+
+.logo {
+    max-height: 120%;
+    max-width: auto;
+    align: center;
+}
+
+.navbar-inverse {
+    border-color: #5ab210;
+    border-width: 0px;
+    border-radius: 0;
+    width: 100%;
+    display: block;
+    float: left;
+    background-color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+    color: #ecd600;
+    background-color: #5ab210;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ecd600;
+}
+
+.dropdown-menu {
+    background-color: #5ab210;
+    color: #ecd600;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: #5ab210;
+    color: #ecd600;    
+}
+
+.dropdown-menu > li > a {
+    color: #ecd600;
+}
+
+.dropdown-menu > li > a:hover {
+    color: #ecd600;
+    background-color: #5ab210;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    display: block;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding: 0px 0px 10px 0px;
+}
+
+.full {
+    max-width: 100%;
+}
+
+h2 {
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+li {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+.mrv {
+    max-width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.name {
+    font-size:22px;
+}
+
+.contact {
+    text-align: left;
+}
+
+a {
+    color: #5ab210;
+}
+
+a:hover {
+    color: #ecd600;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #5ab210;
+    text-decoration: none;
+}
+
+.map {
+    width: 100%;
+    min-height: 600px;
+}
+
+.compmap {
+    width: 100%;
+    min-height: 400px;
+}
+.singlesponsor {
+    max-width: 25%;
+}
+
+.duosponsor {
+    max-width: 80%;
+}
+
+.triosponsor {
+    max-width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #ecd600;
+    color: #fff;
+}
+
+th {
+    text-align: center;
+}
+
+.home {
+    max-height: 1000px;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    margin: auto;
+}
+
+.footer {
+  padding: 10px 0px 0px 0px;
+  background-color: #ecd600;
+}
+
+.btn-primary {
+    background-color: #5ab210;
+    color: #ecd600;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 1300px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+}

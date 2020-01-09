@@ -1,284 +1,898 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <title>
             LanceBotics 200 | A VEX Robotics Team from Toronto, Canada
         </title>
         
-        <link rel="icon" href="../image/yellowforkliftsmall.PNG">
-        
+        <!-- Tab icon -->
+        <link rel="icon" href="../media/logos/LanceBotics/LBIcon.png">
+
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Bootstrap scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="../css/style.css">
     </head>
-  
+
     <body>
-        <!-- Start of nagivation panel-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="../index.html"><img class="logo" src="../image/yellowforklift.png"></a>
-				</div>
+        <!-- Heading Section -->
+        <div class="nonstick">
+            <!-- Heading logo -->
+            <a href="../index.html">
+                <img class="logo" src="../media/logos/LanceBotics/LBLong.png">
+            </a>
+            <br>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="../index.html">
-                                Home
-                            </a>
-                        </li>
+            <h2 class="green">
+                Representing Toronto and Canada at the VEX World Championship for over 4 years
+            </h2>
+        </div>
 
-                        <li>
-                            <a href="vex.html">
-                                VEX
-                            </a>
-                        </li>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <!-- Navbar logo -->
+            <ul class="navbar-nav">
+                <!-- Links to pages -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+            </ul>
 
-                        <li>
-                            <a href="sponsors.html">
-                                Sponsors
-                            </a>
-                        </li>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                        <li>
-                            <a href="awards.html">
-                                Awards
-                            </a>
-                        </li>
+            <!-- Collapsible items -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links to pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html">Teams</a>
+                    </li>
 
-                        <li>
-                            <a href="competitions.html">
-                                Competitions
-                            </a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vex.html">VEX</a>
+                    </li>
 
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Teams
-                                <span class="caret"></span>
-                            </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="community.html">Community</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
 
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="teams.html">
-                                        Teams
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200X.html">
-                                        200X
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200C.html">
-                                        200C
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200G.html">
-                                        200G
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="200H.html">
-                                        200H
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="alumni.html">
-                                        Alumni
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        
-                        <li>
-                            <a href="contact.html">
-                                Contact
-                            </a>
-                        </li>
-
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown">
-                                Archives
-                                <span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="archives/lancebotics2017/index.html" target="_blank">
-                                        2017 - 2018 Website
-                                    </a>
-                                </li>
-                                
-                                <li>
-                                    <a href="archives/lancebotics2016/index.html" target="_blank">
-                                        2016 - 2017 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2015/index.html" target="_blank">
-                                        2015 - 2016 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2014/Index.html" target="_blank">
-                                        2014 - 2015 Website
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="competitions.html">Competitions</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="awards.html">Awards</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsors.html">Sponsors</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <!-- End of nagivation panel-->
-        
+
         <div class="main">
-            <h2>
-                Awards
-            </h2>
-            
-            <hr>
-            
-            <p class="center">
-                These awards represent the dedication and hard work LanceBotics members have shown towards Robotics and STEM throughout every season.
-            </p>
-		
-            <h2>
-                2018 - 2019 Season
-            </h2>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-4">
-                    <img class="triosponsor" src="../image/trophy/2.jpg">
+            <hr class="hrgreen">
+
+            <img src="../media/awards/banner.jpg">
+
+            <div class="row yellowback">
+                <div class="col-sm-2"></div>
+
+                <div class="col-sm-8">
+                    <br>
+
+                    <h1 class="green center">
+                        Our Awards
+                    </h1>
+
+                    <p class="black justify">
+                        For the past 6 seasons, we here at LanceBotics have always aimed to make
+                        Leaside, Toronto and Canada proud, no matter what we do. Since our
+                        foundation in 2013 during the VEX Toss Up season, we have received at total of
+                        24 awards, eight of which we received this past VEX Turning Point 
+                        Season. Our goal this year is not to simply win these awards, but
+                        to prove that we deserve each and every one of them.
+                    </p>
+
+                    <br>
                 </div>
-                
-                <div class="col-sm-4">
-                    <img class="triosponsor" src="../image/trophy/5.jpg">
+            </div>
+             
+            <!-- Tower Takeover -->
+            <div class="greenback">
+                <br>
+
+                <h1 class="center yellow">
+                    Tower Takeover 2019 - 2020 Awards
+                </h1>
+
+                <br>
+
+                <div class="row nopad">
+                    <div class="col-sm-3 nopad">
+                        <img src="../media/awards/TTTournamentChampion.jpg">
+                    </div>
+
+                    <div class="col-sm-3 nopad textdivmargin">
+                        <h2 class="yellow textpad left">
+                            Tournament Champion
+                        </h2>
+
+                        <h2 class="white textpad left">
+                            200X
+                        </h2>
+
+                        <p class="white textpad left">
+                            2019 Toronto VEX
+                        </p>
+                    </div>
+
+                    <div class="col-sm-3 nopad">
+                        <img src="../media/awards/TTExcellenceAward.jpg">
+                    </div>
+
+                    <div class="col-sm-3 nopad textdivmargin">
+                        <h2 class="yellow textpad left">
+                            Excellence Award
+                        </h2>
+
+                        <h2 class="white textpad left">
+                            200X
+                        </h2>
+
+                        <p class="white textpad left">
+                            2019 Toronto VEX
+                        </p>
+                    </div>
                 </div>
-                
-                <div class="col-sm-4">
-                    <img class="triosponsor" src="../image/trophy/3.jpg">
+
+                <hr class="hryellow">
+
+                <div class="row nopad">
+                    <div class="col-sm-3 nopad">
+                        <img src="../media/awards/TTSkillsChampion.jpg">
+                    </div>
+
+                    <div class="col-sm-3 nopad textdivmargin">
+                        <h2 class="yellow textpad left">
+                            Robot Skills Champion
+                        </h2>
+
+                        <h2 class="white textpad left">
+                            200X
+                        </h2>
+
+                        <p class="white textpad left">
+                            2019 Toronto VEX
+                        </p>
+                    </div>
+
+                    <div class="col-sm-6 nopad textdivmargin">
+                        <h2 class="yellow center">
+                            Tournament Semifinalist
+                        </h2>
+
+                        <h2 class="white center">
+                            200X
+                        </h2>
+
+                        <p class="white center">
+                            2019 Brampton iDesign VRC
+                        </p>
+                    </div>
                 </div>
             </div>
             
-	    <br>
-		
-            <div class="row">
-                <div class="col-sm-4">
-                    <img class="triosponsor" src="../image/trophy/4.jpg">
+            <!-- Turning Point -->
+            <div class="yellowback">
+                <br>
+
+                <h1 class="center green">
+                    Turning Point 2018 - 2019 Awards
+                </h1>
+
+                <br>
+
+                <div class="row nopad">
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/TPThinkAward.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Think Award
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200X
+                            </h2>
+
+                            <p class="black textpad left">
+                                2019 Ontario VRC Provincial Championship
+                            </p>
+
+                            <p class="green textpad left">
+                                World Championship Qualification
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/TPBuildAward.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Build Award
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200G
+                            </h2>
+
+                            <p class="black textpad left">
+                                2019 Ontario VRC Provincial Championship
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="col-sm-4">
-                    <img class="triosponsor" src="../image/trophy/1.jpg">
+
+                <hr class="hrgreen">
+
+                <div class="row nopad">
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/TPSportsmanshipAward.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Sportsmanship Award
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200H
+                            </h2>
+
+                            <p class="black textpad left">
+                                2019 iDesign Central Toronto VRC
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/TPTournamentFinalist2.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Tournament Finalist
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200C
+                            </h2>
+
+                            <p class="black textpad left">
+                                2019 Brampton Robotics VRC
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="col-sm-4">
-                    <img class="triosponsor" src="../image/trophy/6.jpg">
+
+                <hr class="hrgreen">
+
+                <div class="row nopad">
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/TPJudgesAward.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Judges Award
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200G
+                            </h2>
+
+                            <p class="black textpad left">
+                                2018 Mississauga VRC
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/TPTournamentFinalist1.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Tournament Finalist
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200X
+                            </h2>
+
+                            <p class="black textpad left">
+                                2018 Brampton iDesign Solutions
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="hrgreen">
+
+                <div class="row nopad">
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/TPCreateAward.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Create Award
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200G
+                            </h2>
+
+                            <p class="black textpad left">
+                                2018 Toronto VEX
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/TPInnovateAward.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Innovate Award
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200X
+                            </h2>
+
+                            <p class="black textpad left">
+                                2018 Toronto VEX
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-		
-            <h2>
-                2017 - 2018 Season
-            </h2>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-12">
-                    <img style="width:33%;" src="../image/trophy/2017tournamentchampion.jpg">
+             
+            <!-- In The Zone -->
+            <div class="greenback">
+                <br>
+
+                <h1 class="center yellow">
+                    In The Zone 2017 - 2018 Awards
+                </h1>
+
+                <br>
+
+                <div class="row nopad">
+                    <div class="col-sm-3"></div>
+
+                    <div class="col-sm-3 nopad">
+                        <img src="../media/awards/ITZTournamentChampion.jpg">
+                    </div>
+
+                    <div class="col-sm-3 nopad textdivmargin">
+                        <h2 class="yellow textpad left">
+                            Tournament Champion
+                        </h2>
+
+                        <h2 class="white textpad left">
+                            200C
+                        </h2>
+
+                        <p class="white textpad left">
+                            2017 Brampton Robotics VRC
+                        </p>
+                    </div>
                 </div>
             </div>
             
-            <h2>
-                2016 - 2017 Season
-            </h2>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-6">
-                    <img class="duosponsor" src="../image/trophy/2016amazeaward.jpg">
+            <!-- Starstruck -->
+            <div class="yellowback">
+                <br>
+
+                <h1 class="center green">
+                    Starstruck 2016 - 2017 Awards
+                </h1>
+
+                <br>
+
+                <div class="row nopad">
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/StarstruckTournamentFinalist.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Tournament Finalist
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200D
+                            </h2>
+
+                            <p class="black textpad left">
+                                2017 Ontario VRC Provincial Championship
+                            </p>
+
+                            <p class="green textpad left">
+                                World Championship Qualification
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/StarstruckAmazeAward.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Amaze Award
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200D
+                            </h2>
+
+                            <p class="black textpad left">
+                                2017 Ontario VRC Provincial Championship
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="col-sm-6">
-                    <img class="duosponsor" src="../image/trophy/2016tournamentfinalist.jpg">
+            </div>
+             
+            <!-- NBN -->
+            <div class="greenback">
+                <br>
+
+                <h1 class="center yellow">
+                    Nothing But Net 2015 - 2016 Awards
+                </h1>
+
+                <br>
+
+                <div class="row nopad">
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/NBNTournamentFinalist.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="yellow textpad left">
+                                Tournament Finalist
+                            </h2>
+
+                            <h2 class="white textpad left">
+                                200A
+                            </h2>
+
+                            <p class="white textpad left">
+                                2016 Ontario VRC Provincial Championship
+                            </p>
+
+                            <p class="yellow textpad left">
+                                World Championship Qualification
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/NBNCreateAward.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="yellow textpad left">
+                                Create Award
+                            </h2>
+
+                            <h2 class="white textpad left">
+                                200A
+                            </h2>
+
+                            <p class="white textpad left">
+                                2016 York Region VRC
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="hryellow">
+
+                <div class="row nopad">
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/NBNInnovateAward.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="yellow textpad left">
+                                Innovate Award
+                            </h2>
+
+                            <h2 class="white textpad left">
+                                200C
+                            </h2>
+
+                            <p class="white textpad left">
+                                2016 York Region VRC
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 textdivmargin">
+                        <br>
+
+                        <h2 class="yellow center">
+                            Tournament Semifinalist
+                        </h2>
+
+                        <h2 class="white center">
+                            200A
+                        </h2>
+
+                        <p class="white center">
+                            2016 York Region VRC
+                        </p>
+
+                        <h2 class="white center">
+                            200A & 200C
+                        </h2>
+
+                        <p class="white center">
+                            2016 Mississauga VRC
+                        </p>
+
+                        <h2 class="white center">
+                            200A
+                        </h2>
+
+                        <p class="white center">
+                            2015 iDesign Solutions VRC
+                        </p>
+                    </div>
                 </div>
             </div>
             
-            <h2>
-                2015 - 2016 Season
-            </h2>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-4">
-                    <img class="triosponsor" src="../image/trophy/2015createaward.jpg">
-                </div>
-                
-                <div class="col-sm-4">
-                    <img class="triosponsor" src="../image/trophy/2015innovateaward.jpg">
-                </div>
-                
-                <div class="col-sm-4">
-                    <img class="triosponsor" src="../image/trophy/2015tournamentfinalist.jpg">
+            <!-- Skyrise -->
+            <div class="yellowback">
+                <br>
+
+                <h1 class="center green">
+                    Skyrise 2014 - 2015 Awards
+                </h1>
+
+                <br>
+
+                <div class="row nopad">
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/SkyriseTournamentFinalist.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Tournament Finalist
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200A
+                            </h2>
+
+                            <p class="black textpad left">
+                                2015 Ontario VRC Provincial Championship
+                            </p>
+
+                            <p class="green textpad left">
+                                World Championship Qualification
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 row nopad">
+                        <div class="col-sm-6 nopad">
+                            <img src="../media/awards/SkyriseTournamentChampion.jpg">
+                        </div>
+
+                        <div class="col-sm-6 nopad textdivmargin">
+                            <h2 class="green textpad left">
+                                Tournament Champion
+                            </h2>
+
+                            <h2 class="black textpad left">
+                                200A
+                            </h2>
+
+                            <p class="black textpad left">
+                                2014 York Region VRC
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <h2>
-                2014 - 2015 Season
-            </h2>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-6">
-                    <img class="duosponsor" src="../image/trophy/2014tournamentchampion.jpg">
+
+            <!-- Sponsor section -->
+            <div class="row greenback">
+                <!-- Sponsor text -->
+                <div class="col-sm-4 textdivmargin">
+                    <div class="textpad">
+                        <h1 class="yellow">
+                            Join the Family
+                        </h1>
+
+                        <p class="white justify">
+                            We don’t bite.
+                            Lancebotics welcomes all future and returning sponsors to the Lancebotics 
+                            Family. Support allows us to take part in competitions, strengthen our 
+                            team, and to promote STEM learning. We use funding for: 
+                        </p>
+
+                        <li class="white">
+                            Event Registration
+                        </li>
+                        
+                        <li class="white">
+                            Components/Hardware
+                        </li>
+                        
+                        <li class="white">
+                            Tools
+                        </li>
+                        
+                        <li class="white">
+                            Software Licenses
+                        </li>
+                        
+                        <li class="white">
+                            Field and Game Pieces
+                        </li>
+                        
+                        <br>
+                        
+                        <p class="white justify">
+                            Your support allows us to continue to participate in VEX competitions with 
+                            high quality robots, and to aim for the number one spot this season.
+                        </p>
+
+                        <a href="sponsors.html" class="yellow yellowlink">
+                            Learn more <img src="../media/special/arrowYellow.png">
+                        </a>
+                    </div>
                 </div>
                 
-                <div class="col-sm-6">
-                    <img class="duosponsor" src="../image/trophy/2014tournamentfinalist.jpg">
+                <div class="col-sm-8 nopad">
+                    <img src="../media/special/special.png">
                 </div>
             </div>
         </div>
-                
-        <div class="footer row">
-            <div class="col-sm-6">
-                <p class="center">
-                    Designed with <a href="getbootstrap.com" target="_blank">Bootstrap</a>
-                </p>
+
+        <!-- Footer -->
+        <div class="foot">
+            <div class="row padded">
+                <!-- Team information -->
+                <div class="col-sm-4">
+                    <h2>
+                        Contact Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="mailto:lancebotics@gmail.com" target="_blank">
+                            LanceBotics@gmail.com <img src="../media/special/arrowGreen.png">
+                        </a>
+                        <br>
+                        416-396-2380 Ext: 20115
+                    </p>
+
+                    <h2>
+                        Connect with Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="https://www.youtube.com/channel/UCjgJsgbScXAeaFQKKcyPbvw" target="_blank">
+                            <img class="social facebook" src="../media/logos/youtube.png">
+
+                            YouTube <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="https://www.instagram.com/200_lancebotics/" target="_blank">
+                            <img class="social" src="../media/logos/instagram.png">
+
+                            Instagram <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                        
+                        <a class="green greenlink" href="https://twitter.com/200_lancebotics" target="_blank">
+                            <img class="social" src="../media/logos/twitter.png">
+
+                            Twitter <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                            
+                        <a class="green greenlink" href="https://www.facebook.com/lancebotics200/" target="_blank">
+                            <img class="social" src="../media/logos/facebook.png">
+
+                            Facebook <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                    
+                    <h2>
+                        Organization
+                    </h2>
+
+                    <p class="left">
+                        Leaside High School
+                        <br>
+                        Staff Advisor: Vincent Lu
+                        <br>
+                        Principal: Marisa Cocco
+                        <br>
+                        Vice Principals: Rosanna Kerigan and Barbara Nixon 
+                        <br>
+                        <a href="https://schoolweb.tdsb.on.ca/leasidehs" target="_bank" class="green greenlink">
+                            School Website <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+
+                <!-- School location on map -->
+                <div class="col-sm-4 connect">
+                    <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11535.875807364917!2d-79.372426!3d43.7111943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc81d16dcb1d2dfab!2sLeaside+High+School!5e0!3m2!1sen!2sbd!4v1566381482720!5m2!1sen!2sbd" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Website links -->
+                <div class="col-sm-4 right">
+                    <h2>
+                        Website Portal
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="../index.html">
+                            Home <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="teams.html">
+                            Teams <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="vex.html">
+                            VEX <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="community.html">
+                            Community <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="gallery.html">
+                            Gallery <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="competitions.html">
+                            Competitions <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="awards.html">
+                            Awards <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="sponsors.html">
+                            Sponsors <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+
+                    <br>
+
+                    <h2>
+                        Website Archive
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="archives/lancebotics2018/index.html" target="_blank">
+                            2018 - 2019 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2017/index.html" target="_blank">
+                            2017 - 2018 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2016/index.html" target="_blank">
+                            2016 - 2017 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2015/index.html" target="_blank">
+                            2015 - 2016 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2014/Index.html" target="_blank">
+                            2014 - 2015 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
             </div>
-                
-            <div class="col-sm-6">
-                <p class="center">
-                    LanceBotics 2019
-                </p>
+
+            <!-- Footer ending -->
+            <div class="row center blackback">
+                <div class="col-sm-6">
+                    <br>
+
+                    <p>
+                        <a href="https://getbootstrap.com" class="green greenlink" target="_bank">
+                            Made with Bootstrap <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+    
+                <div class="col-sm-6">
+                    <br>
+                    
+                    <p class="green">
+                        Lancebotics 2019 - 2020
+                    </p>
+                </div>
             </div>
         </div>
     </body>

@@ -1,266 +1,521 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <title>
             LanceBotics 200 | A VEX Robotics Team from Toronto, Canada
         </title>
         
-        <link rel="icon" href="../image/yellowforkliftsmall.PNG">
-        
+        <!-- Tab icon -->
+        <link rel="icon" href="../media/logos/LanceBotics/LBIcon.png">
+
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Bootstrap scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="../css/style.css">
     </head>
-  
+
     <body>
-        <!-- Start of nagivation panel-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="../index.html"><img class="logo" src="../image/yellowforklift.png"></a>
-                </div>
+        <!-- Heading Section -->
+        <div class="nonstick">
+            <!-- Heading logo -->
+            <a href="../index.html">
+                <img class="logo" src="../media/logos/LanceBotics/LBLong.png">
+            </a>
+            <br>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="../index.html">
-                                Home
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="vex.html">
-                                VEX
-                            </a>
-                        </li>
+            <h2 class="green">
+                Representing Toronto and Canada at the VEX World Championship for over 4 years
+            </h2>
+        </div>
 
-                        <li>
-                            <a href="sponsors.html">
-                                Sponsors
-                            </a>
-                        </li>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <!-- Navbar logo -->
+            <ul class="navbar-nav">
+                <!-- Links to pages -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+            </ul>
 
-                        <li>
-                            <a href="awards.html">
-                                Awards
-                            </a>
-                        </li>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                        <li>
-                            <a href="competitions.html">
-                                Competitions
-                            </a>
-                        </li>
+            <!-- Collapsible items -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links to pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html">Teams</a>
+                    </li>
 
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Teams
-                                <span class="caret"></span>
-                            </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vex.html">VEX</a>
+                    </li>
 
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="teams.html">
-                                        Teams
-                                    </a>
-                                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="community.html">Community</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
 
-                                <li>
-                                    <a href="200X.html">
-                                        200X
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200C.html">
-                                        200C
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200G.html">
-                                        200G
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="200H.html">
-                                        200H
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="alumni.html">
-                                        Alumni
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="contact.html">
-                                Contact
-                            </a>
-                        </li>
-
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown">
-                                Archives
-                                <span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="archives/lancebotics2017/index.html" target="_blank">
-                                        2017 - 2018 Website
-                                    </a>
-                                </li>
-                                
-                                <li>
-                                    <a href="archives/lancebotics2016/index.html" target="_blank">
-                                        2016 - 2017 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2015/index.html" target="_blank">
-                                        2015 - 2016 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2014/Index.html" target="_blank">
-                                        2014 - 2015 Website
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="competitions.html">Competitions</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="awards.html">Awards</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsors.html">Sponsors</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <!-- End of nagivation panel-->
-      
+
         <div class="main">
-            <h2>
-                Team 200
-            </h2>
-            
-            <hr>
-            
-            <img src="../image/home/a.jpg" class="mrv">
-            
-            <h2>
-                What is LanceBotics?
-            </h2>
-            
-            <hr>
-            
-            <p>
-                LanceBotics is Leaside High School's VEX EDR Team that competes in the VEX Robotics Competition. Since 2013, LanceBotics' ultimate goal is to represent Leaside and Canada internationally. Established in 2013, LanceBotics has never overlooked but maintained STEM education in every aspect of our team. In 4 Robotics Teams, one of which is an all girls team, have many members who work hard to represent the Leaside community, their skills, and STEM. Our team has advanced to the VEX Worlds Championship 4 times including this year, and each team aims to add another year to the counter. 
-				
-				<br><br>
-				 We are the only team representing Toronto at the VEX Robotics World Chamionship. 
-            </p>
-            
-            
-            <h2>
-                How do I Join LanceBotics?
-            </h2>
-            
-            <hr>
-            
-            <p>
-                Unfortunately, applications for joining Lancebotics are currently closed. However, if you are still interested and wish to join this year, please contact Mr. Lu by one of the methods on the <a href="contact.html">Contact</a> page. Please note that as we are a high school team, this offer is only to those who attend Leaside High School or are part of the Leaside Community. 
-                <br><br>
-                Applications open in June through to September. Team interviews follow after all applications are gathered in September. Stay tuned to find out where to apply on the website.
-            </p>
-            
-            <h2>
-                Team Portals
-            </h2>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-3">
-                    <a href="200X.html">
-                        <img class="mrv" src="../image/members/200X.jpg">
-                        <p class="center">
-                            200X
-                        </p>
-                    </a>
-                </div>
-                
-                <div class="col-sm-3">
-                    <a href="200C.html">
-                        <img class="mrv" src="../image/members/200C.jpg">
-                        <p class="center">
-                            200C
-                        </p>
-                    </a>
-                </div>
-                
-                <div class="col-sm-3">
-                    <a href="200G.html">
-                        <img class="mrv" src="../image/members/200G.jpg">
-                        <p class="center">
-                            200G
-                        </p>
-                    </a>
-                </div>
-                
-                <div class="col-sm-3">
-                    <a href="200H.html">
-                        <img class="mrv" src="../image/members/200H.jpg">
-                        <p class="center">
-                            200H
-                        </p>
-                    </a>
+            <hr class="hryellow">
+
+            <img src="../media/team/worldsCropped.jpg">
+
+            <div class="row greenback">
+                <div class="col-sm-12">
+                    <br>
+                    
+                    <h1 class="center yellow">
+                        Welcome to LanceBotics
+                    </h1>
+
+                    <div class="row">
+                        <div class="col-sm-2">
+                        </div>
+    
+                        <div class="col-sm-8">
+                            <p class="justify white">
+                                LanceBotics is the robotics team of Leaside High School, situated in the Borough of East York in Toronto, Ontario, Canada. We compete in the VEX Robotics Competition, in which high school students from around the world build and program robots to compete against each other on a playing field on regional, provincial and international levels. Our initiative is to promote STEM within the Leaside Community by providing an atmosphere similar to STEM careers to provide insight on the ever growing field. 
+
+                                <br><br>
+
+                                Our team was founded in 2013 by former Leaside students Matthew Gehring, Zach Bolté, and Spencer Ploeger, alongside our Staff Advisor and Mentor Mr. Vincent Lu, who was formerly the Staff Advisor for Team 2505 Electric Sheep situated in Don Mills Collegiate Institute. Without the ambition of our founders, Leaside would have never seen its very own robotics team compete internationally four seasons of the six we have been a team. We continually thank our student founders as well as Mr. Lu for their continuous support of our team through mentorship, administration, as well as funding for the team.
+
+                                <br><br>
+
+                                Last season, our 200X team qualified for the 2019 VEX World Championship as the only team situated in Toronto to compete internationally. We placed 62nd in the most competitive division of the competition, with four wins, six losses and one tie. It was the 200X’s first season, as well as its first World Championship appearance, and this year, all three of our teams aspire to compete alongside each other at the World Championship. With over 60 members combined this year, with many new members as well as experienced members, LanceBotics aims to make Leaside, Toronto as well as Canada proud! 
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-			
-			<div class="row">
+            
+            <br>
+
+            <div class="row yellowback">
                 <div class="col-sm-12">
-                    <p class="center">
+                    <br>
+                    
+                    <h1 class="center green">
+                        Facts and Achievements
+                    </h1>
+
+                    <div class="row">
+                        <div class="col-sm-2">
+                        </div>
+    
+                        <div class="col-sm-8">
+                            <p class="justify black">
+                                Each year, we aspire to reach appropriate goals, ranging from creating a
+                                consistent autonomous program, to qualifying for the World Championship. 
+                                But the base goal is the same each season: Make our community proud! These
+                                achievements are what make LanceBotics a force to reckon with.
+                            </p>
+                            
+                            <br>
+                            
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="black">
+                                        <li>
+                                            Established in 2013, LanceBotics has qualified for the VEX World Championship four
+                                            out of the six seasons we have competed
+                                        </li>
+                                        <br>
+                                        <li>
+                                            A collective award count of 24 awards won at Regional and Provincial competitions
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Housing three robot teams and one shared media team
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Involving more girls in STEM through the All-Girl team initiative
+                                        </li>
+                                        <br>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <ul class="black">
+                                        <li>
+                                            Three-time tournament champions and five-time tournament finalists
+                                        </li>
+                                        <br>
+                                        <li>
+                                            The only Toronto team to represent the city at the 2019 VEX World Championship
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Over 60 members of the Leaside Community who currently participate on our teams
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Over 75 LanceBotics Alumni who are in post-secondary education or higher
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <!-- Team Links-->
+            <div class="greenback">
+                <div>
+                    <br>
+
+                    <h1 class="center yellow">
+                        Our Teams
+                    </h1>
+
+                    <p class="center white">
+                        Hover for more
+                    </p>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-3 teamsection center">
+                        <img src="../media/team/CircleG.png" class="teamimage">
+
+                        <div class="teamcontent">
+                            <h2 class="center">
+                                200G
+                            </h2>
+
+                            <p class="center">
+                                The Ultimate All-Girl Team
+                            </p>
+
+                            <a href="200G.html" class="center yellow yellowlink">
+                                Learn more <img src="../media/special/arrowYellow.png">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-3 teamsection center">
+                        <img src="../media/team/CircleH.png" class="teamimage">
+
+                        <div class="teamcontent">
+                            <h2 class="center">
+                                200H
+                            </h2>
+
+                            <p class="center">
+                                The Powerhouse Club Team
+                            </p>
+
+                            <a href="200H.html" class="center yellow yellowlink">
+                                Learn more <img src="../media/special/arrowYellow.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 teamsection center">
+                        <img src="../media/team/CircleX.png" class="teamimage">
+
+                        <div class="teamcontent">
+                            <h2 class="center">
+                                200X
+                            </h2>
+
+                            <p class="center">
+                                The World-Class Team
+                            </p>
+
+                            <a href="200X.html" class="center yellow yellowlink">
+                                Learn more <img src="../media/special/arrowYellow.png">
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-3 teamsection center">
+                        <img src="../media/team/CircleMedia.png" class="teamimage">
+
+                        <div class="teamcontent">
+                            <h2 class="center">
+                                Media
+                            </h2>
+
+                            <p class="center">
+                                The Spies in Disguise
+                            </p>
+
+                            <a href="Media.html" class="center yellow yellowlink">
+                                Learn more <img src="../media/special/arrowYellow.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <br>
+                <hr class="hryellow">
+                <br>
+                
+                <div class="row greenback">
+                    <div class="col-sm-6">
+                        <h1 class="yellow center">
+                            Looking to Join LanceBotics?
+                        </h1>    
+
+                        <p class="white justify">
+                            Unfortunately, our applications are closed for this season. LanceBotics hosts applications 
+                            for new members twice each year, once in May for current Leaside Students (Grades 9 to 11),
+                            as well as once in September for new Leaside grade nines. The applications is only available
+                            to those who attend Leaside High School or are part of the Leaside Community. An in-person 
+                            team interview follows all applications. Application information will be posted here when
+                            they are open.
+
+                            <br><br>
+                            If you have any questions about the application, please email or call us through the contact
+                            options available at the bottom of this page.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-6 textdivmargin">
+                        <h1 class="yellow center">
+                            <a class="center yellow yellowlink" href="alumni.html">
+                                See Alumni and Mentors <img src="../media/special/arrowYellow.png">
+                            </a>
+                            
+                            <br><br>
+                            
+                            <a class="center yellow yellowlink" href="sponsors.html">
+                                See Sponsors <img src="../media/special/arrowYellow.png">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+
+                <br>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="foot">
+            <div class="row padded">
+                <!-- Team information -->
+                <div class="col-sm-4">
+                    <h2>
+                        Contact Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="mailto:lancebotics@gmail.com" target="_blank">
+                            LanceBotics@gmail.com <img src="../media/special/arrowGreen.png">
+                        </a>
                         <br>
+                        416-396-2380 Ext: 20115
+                    </p>
+
+                    <h2>
+                        Connect with Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="https://www.youtube.com/channel/UCjgJsgbScXAeaFQKKcyPbvw" target="_blank">
+                            <img class="social facebook" src="../media/logos/youtube.png">
+
+                            YouTube <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
                         <br>
+
+                        <a class="green greenlink" href="https://www.instagram.com/200_lancebotics/" target="_blank">
+                            <img class="social" src="../media/logos/instagram.png">
+
+                            Instagram <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
                         <br>
-                        <a class="center" href="alumni.html">
-                            Alumni
+                        
+                        <a class="green greenlink" href="https://twitter.com/200_lancebotics" target="_blank">
+                            <img class="social" src="../media/logos/twitter.png">
+
+                            Twitter <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                            
+                        <a class="green greenlink" href="https://www.facebook.com/lancebotics200/" target="_blank">
+                            <img class="social" src="../media/logos/facebook.png">
+
+                            Facebook <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                    
+                    <h2>
+                        Organization
+                    </h2>
+
+                    <p class="left">
+                        Leaside High School
+                        <br>
+                        Staff Advisor: Vincent Lu
+                        <br>
+                        Principal: Marisa Cocco
+                        <br>
+                        Vice Principals: Rosanna Kerigan and Barbara Nixon 
+                        <br>
+                        <a href="https://schoolweb.tdsb.on.ca/leasidehs" target="_bank" class="green greenlink">
+                            School Website <img src="../media/special/arrowGreen.png">
                         </a>
                     </p>
                 </div>
-			</div>
-        </div>
-                
-        <div class="footer row">
-            <div class="col-sm-6">
-                <p class="center">
-                    Designed with <a href="getbootstrap.com" target="_blank">Bootstrap</a>
-                </p>
+
+                <!-- School location on map -->
+                <div class="col-sm-4 connect">
+                    <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11535.875807364917!2d-79.372426!3d43.7111943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc81d16dcb1d2dfab!2sLeaside+High+School!5e0!3m2!1sen!2sbd!4v1566381482720!5m2!1sen!2sbd" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Website links -->
+                <div class="col-sm-4 right">
+                    <h2>
+                        Website Portal
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="../index.html">
+                            Home <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="teams.html">
+                            Teams <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="vex.html">
+                            VEX <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="community.html">
+                            Community <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="gallery.html">
+                            Gallery <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="competitions.html">
+                            Competitions <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="awards.html">
+                            Awards <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="sponsors.html">
+                            Sponsors <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+
+                    <br>
+
+                    <h2>
+                        Website Archive
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="archives/lancebotics2018/index.html" target="_blank">
+                            2018 - 2019 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2017/index.html" target="_blank">
+                            2017 - 2018 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2016/index.html" target="_blank">
+                            2016 - 2017 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2015/index.html" target="_blank">
+                            2015 - 2016 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2014/Index.html" target="_blank">
+                            2014 - 2015 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
             </div>
-                
-            <div class="col-sm-6">
-                <p class="center">
-                    LanceBotics 2019
-                </p>
-            </div> 
+
+            <!-- Footer ending -->
+            <div class="row center blackback">
+                <div class="col-sm-6">
+                    <br>
+
+                    <p>
+                        <a href="https://getbootstrap.com" class="green greenlink" target="_bank">
+                            Made with Bootstrap <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+    
+                <div class="col-sm-6">
+                    <br>
+                    
+                    <p class="green">
+                        Lancebotics 2019 - 2020
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
 </html>

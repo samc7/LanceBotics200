@@ -1,439 +1,515 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <title>
             LanceBotics 200 | A VEX Robotics Team from Toronto, Canada
         </title>
         
-        <link rel="icon" href="../image/yellowforkliftsmall.PNG">
-        
+        <!-- Tab icon -->
+        <link rel="icon" href="../media/logos/LanceBotics/LBIcon.png">
+
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Bootstrap scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="../css/style.css">
     </head>
-  
+
     <body>
-        <!-- Start of nagivation panel-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="../index.html"><img class="logo" src="../image/yellowforklift.png"></a>
-                </div>
+        <!-- Heading Section -->
+        <div class="nonstick">
+            <!-- Heading logo -->
+            <a href="../index.html">
+                <img class="logo" src="../media/logos/LanceBotics/LBLong.png">
+            </a>
+            <br>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="../index.html">
-                                Home
-                            </a>
-                        </li>
+            <h2 class="green">
+                Representing Toronto and Canada at the VEX World Championship for over 4 years
+            </h2>
+        </div>
 
-                        <li>
-                            <a href="vex.html">
-                                VEX
-                            </a>
-                        </li>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <!-- Navbar logo -->
+            <ul class="navbar-nav">
+                <!-- Links to pages -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+            </ul>
 
-                        <li>
-                            <a href="sponsors.html">
-                                Sponsors
-                            </a>
-                        </li>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                        <li>
-                            <a href="awards.html">
-                                Awards
-                            </a>
-                        </li>
+            <!-- Collapsible items -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links to pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html">Teams</a>
+                    </li>
 
-                        <li>
-                            <a href="competitions.html">
-                                Competitions
-                            </a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vex.html">VEX</a>
+                    </li>
 
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Teams
-                                <span class="caret"></span>
-                            </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="community.html">Community</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
 
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="teams.html">
-                                        Teams
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200X.html">
-                                        200X
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200C.html">
-                                        200C
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200G.html">
-                                        200G
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="200H.html">
-                                        200H
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="alumni.html">
-                                        Alumni
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="contact.html">
-                                Contact
-                            </a>
-                        </li>
-
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown">
-                                Archives
-                                <span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="archives/lancebotics2017/index.html" target="_blank">
-                                        2017 - 2018 Website
-                                    </a>
-                                </li>
-                                
-                                <li>
-                                    <a href="archives/lancebotics2016/index.html" target="_blank">
-                                        2016 - 2017 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2015/index.html" target="_blank">
-                                        2015 - 2016 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2014/Index.html" target="_blank">
-                                        2014 - 2015 Website
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="competitions.html">Competitions</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="awards.html">Awards</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsors.html">Sponsors</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <!-- End of nagivation panel-->
-        
+
         <div class="main">
-            <h2>
-                Sponsors
-            </h2>
-            
-            <hr>
-            
-            <p>
-                LanceBotics is a high school robotics team that heavily depends on the generosity of sponsors to fund resources used by the team. Without the support from our sponsors, we would not have managed to reach this far in Robotics and STEM. Below, you may find a list of our current sponsors, a link to our past sponsors, and a sponsorship package.
-                <br><br>
-                If you are interested in sponsoring us, please read the sponsorship package at the bottom of this page and contact us through one of the methods on the <a href="contact.html">Contact</a> page for more sponsorship information or if you have any questions.
-            </p>
+            <hr class="hryellow">
 
-            <hr>
-			
-			<h2 style="color: #FFD700;">
-                Gold Sponsors
-            </h2>
-
-            <hr>
-			
-			<div class="row">
-				<div class="col-sm-6">
-                    <img class="duosponsor" src="../image/special/current/easylink.jpg">
-					
-					<br>
-					<br>
-					
-					<p class="center">
-						Easy Links Financial Inc.
-					</p>
+            <!-- image row -->
+            <div class="row nopad">
+                <div class="col-sm-3 nopad">
+                    <img src="../media/special/pin.JPG">
                 </div>
-                    
-                <div class="col-sm-6">
-                    <img width="80%" src="../image/special/current/Guardian.png">
-					
-					<br>
-					<br>
-					
-					<p class="center">
-						Guardian Capital
-					</p>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/special/shirtback.JPG">
                 </div>
-			</div>
-			
-			<br>
-			
-			<div class="row">
-                <div class="col-sm-6">
-                    <img class="triosponsor" src="../image/special/current/CIKTelecom.jpg">
-					
-					<br>
-					
-					<p class="center">
-						CIKTelecom
-					</p>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/special/shirtback2.JPG">
                 </div>
-				
-				<div class="col-sm-6">
-                    <img class="triosponsor" src="../image/special/current/dbrs.png">
-					
-					<br>
-					<br>
-					
-					<p class="center">
-						DBRS
-					</p>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/special/hoodiepin.JPG">
                 </div>
-			</div>
-			
-			<div class="row">
-				<div class="col-sm-6">
-                    <img class="triosponsor" src="../image/special/current/robo.png">
-					
-					<br>
-					<br>
-					
-					<p class="center">
-						RoboEDU
-					</p>
+            </div>
+
+            <!-- Join section -->
+            <div class="row yellowback">
+                <div class="col-sm-2">
                 </div>
-			
-				<div class="col-sm-6">
-					<h2 class="center">
-						Dr. Erin Kennedy Medical Professional Corporation
-					</h2>
-				</div>
-			</div>
-			
-			<br>
-			<br>
-			
-            <h2 style="color: #C0C0C0;">
-                Silver Sponsors
-            </h2>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-6">
-				
-				<img class="duosponsor" src="../image/special/current/MercedesBenz.png">
-				
-				<br>
-				<br>
-				
-				<p class="center">
-					Mercedes-Benz
-				</p>	
-				</div>
-				
-				<div class="col-sm-6">
 
-					<img class="duosponsor" src="../image/special/current/tdsb.png">
-					
-					<br>
-					
-					<p class="center">
-						Toronto District School Board
-					</p>
-				</div>
-			</div>
-            
-			<br>
-            
-			<div class="row">
-                <div class="col-sm-6">
-				
-				<img width="100%" src="../image/special/current/panther.png">
-				
-				<br>
-				
-				<p class="center">
-					Panther Security Solutions
-				</p>	
-				</div>
-				
-				<div class="col-sm-6">
+                <div class="col-sm-8">
+                    <br>
 
-					<img class="duosponsor" src="../image/special/current/jsc.jpg">
-					
-					<br>
-					
-					<p class="center">
-						Joseph Shoichet Consulting
-					</p>
-				</div>
-			</div>
-			
-			<br>
-			
-			<div class="row">
-				<div class="col-sm-12">
+                    <h1 class="green center">
+                        Join the Family
+                    </h1>
 
-					<img width="33.333%" src="../image/special/current/407.jpg">
+                    <br>
 
-					<br>
-					<br>
+                    <p class="black justify">
+                        LanceBotics is a high school robotics team that heavily depends on the generosity of sponsors to 
+                        fund resources used by the team. Without the support from our past sponsors, it is safe to say we 
+                        would not have managed to reach this far in Robotics and STEM, maintain world-class status, or
+                        keep our members engaged in the club. Below, you may find a list of our current sponsors, who we 
+                        continually thank for their generosity and for supporting us this season.
 
-					<p class="center">
-						407ETR
-					</p>
-				</div>
-			</div>
-			
-            <br>
-            <br>
-            
-            <h2 style="color: #CD7F32;">
-                Bronze Sponsors
-            </h2>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-6">
-					<img class="duosponsor" src="../image/special/current/ZachBolte.jpg">
-					
-					<br>
-					<br>
-					
-					<p class="center">
-						Zach Bolté Foundation
-					</p>   
-				</div>
-				
-				<div class="col-sm-6">
-					<img class="duosponsor" src="../image/special/current/Mucho.png">
-					
-					<br>
-					<br>
-					
-					<p class="center">
-						Mucho Burrito
-					</p> 
-				</div>
-			</div>
-			
-			<div class="row">
-                <div class="col-sm-6">  
-					<img class="duosponsor" src="../image/special/current/dentistry.jpg">
-					
-					<br>
-					<br>
-					
-					<p class="center">
-						Dentistry on Manning
-					</p> 
-				</div>
-				
-				<div class="col-sm-6">  
-					<h2 class="center">
-						Dr. Hradsky
-					</h2>
-				</div>
-			</div>
-			
-            <hr>
-            
-            <h2>
-                Sponsorship Information
-            </h2>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-6">
-			<div class="thumbnail text-center">
-				<a href="../image/special/LanceBotics.pdf" target="_blank">
-					<img class="mrv" style="opacity: 0.7;filter: blur(2px); -webkit-filter: blur(2px);" src="../image/special/special.png">
-				</a>
-				<div class="caption">
-					<a href="../image/special/LanceBotics.pdf" style="-webkit-text-stroke-width: 2px;-webkit-text-stroke-color: green;" target="_blank">
-						<h2 class="center">Click here for the Sponsorship Package</h2>
-					</a>
-				</div>
-			</div>
-                </div>
-			
-				
-                <div class="col-sm-6">
-                    <p>
-                        Unfortunately, the resources that are required to compete in the 2018 - 2019 VEX Robotics Competition season are not free, which is why we rely on the generosity of our sponsors to fund the resources we need to ensure we stay as world-class team. Funds are used on resources listed below:
+                        <br><br>
+
+                        If you are interested in sponsoring us, please read the 
+                        <a class="greenlink" href="../media/special/LanceBotics.pdf" target="_blank">sponsorship package <img src="../media/special/arrowGreen.png"> </a> 
+                        and contact us using the contact options on the package or at the bottom of this page for more 
+                        information.
                     </p>
-
-                    <li>Event Registration</li>
-                    <li>Components/Hardware</li>
-                    <li>Tools</li>
-                    <li>Software Licenses</li>
-                    <li>Field and Game Pieces</li>
                     
                     <br>
-                    
-                    <p>
-                        With this support, Lancebotics as a team can continue to build high quality robots that will be able to compete with the VEX Worlds’ best, as well as aim for the number one spot this season.
+                </div>
+                
+                <div class="col-sm-2">
+                </div>
+            </div>
+
+            <div class="whiteback">
+                <br>
+                
+                <h1 class="center green">
+                    Our Sponsors
+                </h1>
+
+                <br>
+
+                <div class="row center">
+                    <div class="col-sm-3"></div>
+
+                    <div class="col-sm-6">
+                        <img class="sponsorlogo" src="../media/special/current/easylink.jpg">
+                        
                         <br><br>
-                        To view the sponsorship package, click <a href="../image/special/LanceBotics.pdf" target="_blank">here</a>. To contact us, please visit our <a href="contact.html">Contact</a> page.
+                        
+                        <h2 class="black">
+                            Easy Links Financial Inc.
+                        </h2>
+                    </div>
+                </div>
+                
+                <br>
+
+                <div class="row center">
+                    <div class="col-sm-4 textdivmargin padded">
+                        <img class="sponsorlogo" src="../media/special/current/Guardian.png">
+                        
+                        <br><br>
+                        
+                        <h2 class="black">
+                            Guardian Capital
+                        </h2>
+                    </div>
+
+                    <div class="col-sm-4 textdivmargin padded">
+                        <img class="sponsorlogo" src="../media/special/current/dbrs.png">
+                        
+                        <br><br>
+                        
+                        <h2 class="black">
+                            DBRS
+                        </h2>
+                    </div>
+
+                    <div class="col-sm-4 textdivmargin padded">
+                        <img class="sponsorlogo" src="../media/special/current/robo.png">
+                        
+                        <br><br>
+                        
+                        <h2 class="black center">
+                            RoboEDU
+                        </h2>
+                    </div>
+                </div>
+                
+                <br>
+
+                <div class="row center">
+                    <div class="col-sm-4 textdivmargin padded">
+                        <h1 class="black">
+                            Dr. Erin Kennedy Medical Professional Corp.
+                        </h1>
+                    </div>
+                    
+                    <div class="col-sm-4 textdivmargin padded">
+                        <img class="sponsorlogo" src="../media/special/current/CIKTelecom.jpg">
+                        
+                        <br>
+                        
+                        <h2 class="black">
+                            CIKTelecom
+                        </h2>
+                    </div>
+                    
+                    <div class="col-sm-4 textdivmargin padded">
+                        <img class="sponsorlogo" src="../media/special/current/tdsb.png">
+                        
+                        <br><br>
+                        
+                        <h2 class="black">
+                            Toronto District School Board
+                        </h2>
+                    </div>
+                </div>
+                
+                <br>
+
+                <div class="row center">
+                    <div class="col-sm-3 textdivmargin padded">
+                        <img class="sponsorlogo" src="../media/special/current/redline.png">
+                        
+                        <br><br>
+                        
+                        <h2 class="black">
+                            Redline Communications
+                        </h2>
+                    </div>
+
+                    <div class="col-sm-3 textdivmargin padded">
+                        <img class="sponsorlogo" src="../media/special/current/panther.png">
+                        
+                        <br><br>
+                        
+                        <h2 class="black">
+                            Panther Security Solutions
+                        </h2>
+                    </div>
+
+                    <div class="col-sm-3 textdivmargin padded">
+                        <img class="sponsorlogo" src="../media/special/current/jsc.jpg">
+                        
+                        <br><br>
+
+                        <h2 class="black">
+                            Joseph Schoichet Consulting
+                        </h2>
+                    </div>
+
+                    <div class="col-sm-3 textdivmargin padded">
+                        <img class="sponsorlogo" src="../media/special/current/407.jpg">
+                        
+                        <br><br>
+                        
+                        <h2 class="black">
+                            407 ETR
+                        </h2>
+                    </div>
+                </div>
+                
+                <br>
+
+                <div class="row center">
+                    <div class="col-sm-3"></div>
+
+                    <div class="col-sm-2 textdivmargin padded">
+                        <img class="sponsorlogo" src="../media/special/current/Mucho.png">
+                        
+                        <br><br>
+                        
+                        <h2 class="black">
+                            Mucho Burrito
+                        </h2>
+                    </div>
+
+                    <div class="col-sm-2 textdivmargin padded">
+                        <h1 class="black">
+                            Dr. Hradsky
+                        </h1>
+                    </div>
+
+                    <div class="col-sm-2 textdivmargin padded">
+                        <img class="sponsorlogo" src="../media/special/current/dentistry.jpg">
+                        
+                        <br><br>
+
+                        <h2 class="black">
+                            Dentistry on Manning
+                        </h2>
+                    </div>
+                </div>
+
+                <br>
+
+                <h1 class="green center">
+                    <a class="greenlink" href="pastsponsors.html">
+                        See Past Sponsors <img src="../media/special/arrowGreen.png">
+                    </a>
+                </h1>
+
+                <br>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="foot">
+            <div class="row padded">
+                <!-- Team information -->
+                <div class="col-sm-4">
+                    <h2>
+                        Contact Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="mailto:lancebotics@gmail.com" target="_blank">
+                            LanceBotics@gmail.com <img src="../media/special/arrowGreen.png">
+                        </a>
+                        <br>
+                        416-396-2380 Ext: 20115
+                    </p>
+
+                    <h2>
+                        Connect with Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="https://www.youtube.com/channel/UCjgJsgbScXAeaFQKKcyPbvw" target="_blank">
+                            <img class="social facebook" src="../media/logos/youtube.png">
+
+                            YouTube <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="https://www.instagram.com/200_lancebotics/" target="_blank">
+                            <img class="social" src="../media/logos/instagram.png">
+
+                            Instagram <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                        
+                        <a class="green greenlink" href="https://twitter.com/200_lancebotics" target="_blank">
+                            <img class="social" src="../media/logos/twitter.png">
+
+                            Twitter <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                            
+                        <a class="green greenlink" href="https://www.facebook.com/lancebotics200/" target="_blank">
+                            <img class="social" src="../media/logos/facebook.png">
+
+                            Facebook <img src="../media/special/arrowGreen.png">
+                        </a>
                     </p>
                     
                     <h2>
-                        <a href="pastsponsors.html">View Past Sponsors</a>
+                        Organization
                     </h2>
+
+                    <p class="left">
+                        Leaside High School
+                        <br>
+                        Staff Advisor: Vincent Lu
+                        <br>
+                        Principal: Marisa Cocco
+                        <br>
+                        Vice Principals: Rosanna Kerigan and Barbara Nixon 
+                        <br>
+                        <a href="https://schoolweb.tdsb.on.ca/leasidehs" target="_bank" class="green greenlink">
+                            School Website <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+
+                <!-- School location on map -->
+                <div class="col-sm-4 connect">
+                    <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11535.875807364917!2d-79.372426!3d43.7111943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc81d16dcb1d2dfab!2sLeaside+High+School!5e0!3m2!1sen!2sbd!4v1566381482720!5m2!1sen!2sbd" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Website links -->
+                <div class="col-sm-4 right">
+                    <h2>
+                        Website Portal
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="../index.html">
+                            Home <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="teams.html">
+                            Teams <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="vex.html">
+                            VEX <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="community.html">
+                            Community <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="gallery.html">
+                            Gallery <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="competitions.html">
+                            Competitions <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="awards.html">
+                            Awards <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="sponsors.html">
+                            Sponsors <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+
+                    <br>
+
+                    <h2>
+                        Website Archive
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="archives/lancebotics2018/index.html" target="_blank">
+                            2018 - 2019 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2017/index.html" target="_blank">
+                            2017 - 2018 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2016/index.html" target="_blank">
+                            2016 - 2017 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2015/index.html" target="_blank">
+                            2015 - 2016 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2014/Index.html" target="_blank">
+                            2014 - 2015 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
                 </div>
             </div>
-        </div>
-                
-        <div class="footer row">
-            <div class="col-sm-6">
-                <p class="center">
-                    Designed with <a href="getbootstrap.com" target="_blank">Bootstrap</a>
-                </p>
+
+            <!-- Footer ending -->
+            <div class="row center blackback">
+                <div class="col-sm-6">
+                    <br>
+
+                    <p>
+                        <a href="https://getbootstrap.com" class="green greenlink" target="_bank">
+                            Made with Bootstrap <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+    
+                <div class="col-sm-6">
+                    <br>
+                    
+                    <p class="green">
+                        Lancebotics 2019 - 2020
+                    </p>
+                </div>
             </div>
-                
-            <div class="col-sm-6">
-                <p class="center">
-                    LanceBotics 2019
-                </p>
-            </div> 
         </div>
     </body>
 </html>

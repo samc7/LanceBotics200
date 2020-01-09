@@ -1,395 +1,882 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <title>
             LanceBotics 200 | A VEX Robotics Team from Toronto, Canada
         </title>
         
-        <link rel="icon" href="../image/yellowforkliftsmall.PNG">
-        
+        <!-- Tab icon -->
+        <link rel="icon" href="../media/logos/LanceBotics/LBIcon.png">
+
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Bootstrap scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="../css/style.css">
     </head>
-  
+
     <body>
-        <!-- Start of nagivation panel-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="../index.html"><img class="logo" src="../image/yellowforklift.png"></a>
-                </div>
+        <!-- Heading Section -->
+        <div class="nonstick">
+            <!-- Heading logo -->
+            <a href="../index.html">
+                <img class="logo" src="../media/logos/LanceBotics/LBLong.png">
+            </a>
+            <br>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="../index.html">
-                                Home
-                            </a>
-                        </li>
+            <h2 class="green">
+                Representing Toronto and Canada at the VEX World Championship for over 4 years
+            </h2>
+        </div>
 
-                        <li>
-                            <a href="vex.html">
-                                VEX
-                            </a>
-                        </li>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <!-- Navbar logo -->
+            <ul class="navbar-nav">
+                <!-- Links to pages -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+            </ul>
 
-                        <li>
-                            <a href="sponsors.html">
-                                Sponsors
-                            </a>
-                        </li>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                        <li>
-                            <a href="awards.html">
-                                Awards
-                            </a>
-                        </li>
+            <!-- Collapsible items -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links to pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html">Teams</a>
+                    </li>
 
-                        <li>
-                            <a href="competitions.html">
-                                Competitions
-                            </a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vex.html">VEX</a>
+                    </li>
 
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Teams
-                                <span class="caret"></span>
-                            </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="community.html">Community</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
 
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="teams.html">
-                                        Teams
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200X.html">
-                                        200X
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200C.html">
-                                        200C
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200G.html">
-                                        200G
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="200H.html">
-                                        200H
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="alumni.html">
-                                        Alumni
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        
-                        <li>
-                            <a href="contact.html">
-                                Contact
-                            </a>
-                        </li>
-
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown">
-                                Archives
-                                <span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="archives/lancebotics2017/index.html" target="_blank">
-                                        2017 - 2018 Website
-                                    </a>
-                                </li>
-                                
-                                <li>
-                                    <a href="archives/lancebotics2016/index.html" target="_blank">
-                                        2016 - 2017 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2015/index.html" target="_blank">
-                                        2015 - 2016 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2014/Index.html" target="_blank">
-                                        2014 - 2015 Website
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="competitions.html">Competitions</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="awards.html">Awards</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsors.html">Sponsors</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <!-- End of nagivation panel-->
-      
+
         <div class="main">
-            <h2>
-               Team 200G
-            </h2>
-            
-            <hr>
-            
-            <p>
-                200G is a VEX robotics team comprised solely of female members. 200G is an All-Girls VEX robotics team founded by Crystal J. and Sylvia G. After numerous years of competing in Vex Robotics, the two wanted to create an opportunity that encourages more girls to join and explore the male dominated STEM fields. Crystal and Sylvia were able to recruit and lead a team of 15 to design, build, and program Vex Robots. 
-		<br><br>
-		Despite the fact that nearly all of 200G were rookies, the girls team garnered the Create Award at the Toronto VEX VRC tournament, the Judges Award at Mississauga VRC Qualifying Event, and the Build Award at the Ontario VRC Provincial Championships. Sadly, the team fell short of advancing to the 2019 World Championship by two matches. 200G ended their season being ranked 16th overall in Ontario for Robot skills. This is only the beginning of 200G and we hope to see even more success from them in the future.
-            </p>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/HibaA.png">
+            <hr class="hrgreen">
+
+            <img src="../media/team/200G.jpg">
+
+            <div class="row greenback">
+                <div class="col-sm-12">
+                    <br>
                     
-                    <h2 class="name">
-                        Hiba A.
-                    </h2>
-					
-					<p class="center">
-						Builder
-					</p>
-                </div>
-                
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/SylviaG.jpg">
-                    
-                    <h2 class="name">
-                        Sylvia G.
-                    </h2>
-					
-					<p class="center">
-						Co-Captain,
-						<br>Builder
-					</p>
-                </div>
-                
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/KelieG.png">
-                   
-                    <h2 class="name">
-                        Kelie G.
-                    </h2>
-					
-					<p class="center">
-						Builder
-					</p>
-                </div>
-                
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/MaryG.png">
-                    
-                    <h2 class="name">
-                        Mary G.
-                    </h2>
-					
-					<p class="center">
-						Builder
-					</p>
+                    <h1 class="center yellow">
+                        200G - The All-Girl Team
+                    </h1>
+
+                    <div class="row">
+                        <div class="col-sm-2">
+                        </div>
+    
+                        <div class="col-sm-8">
+                            <p class="justify white">
+                                200G is LanceBotics' all-girls VEX Robotics team. Our team consists of 16 
+                                girls ranging from grades 9-12, all dedicated to immersing ourselves 
+                                within robotics, the VEX community, and the stressful but incredibly 
+                                rewarding competition VEX brings.
+
+                                <br><br>
+
+                                We are here to challenge the stigma around all-girls robotics teams. We 
+                                are here to demonstrate -- not only to the VEX community -- but to 
+                                ourselves that we are just as capable of working hard, learning lots, 
+                                and succeeding as a team. We are here to prove that our awards are not 
+                                the result of us being all-girls, but from our consistent dedication, 
+                                determination, and genuine desire to learn. 
+
+                                <br><br>
+
+                                Tower Takeover is 200G’s second year in VEX, with Turning Point being 
+                                our team’s rookie season. 200G all started with our original co-captains, 
+                                Sylvia Gehring and Crystal Jin. Both girls were involved in Lancebotics 
+                                and VEX for two years prior to the founding of 200G, but they both 
+                                became aware of something significant about robotics: there was an 
+                                incredibly disproportionate amount of males and females on the team, 
+                                and it was becoming more common for females to join the team, come for 
+                                a couple of build sessions, and quit. They came to the realization that 
+                                being a part of a co-ed team may feel especially daunting for girls who 
+                                had no prior experience in robotics, and that they may feel worried 
+                                about being judged by other team members for not understanding how VEX 
+                                works. This made sense to Sylvia and Crystal as to why after a couple 
+                                of build sessions, some girls may leave the team. After coming to this 
+                                understanding, they agreed to start a new all-girls team under the 
+                                Lancebotics organization, with the goal of providing an environment 
+                                where girls do not need to be worried about being judged for what they 
+                                do not understand and where girls may feel comfortable learning with 
+                                each other. So, 200G was born. Our journey during the Turning Point 
+                                season was a blast, from late night build sessions in Crystal’s basement 
+                                to ranking 15th as a rookie team at Ontario Provincials to receiving 
+                                the highest robot skills rank out of all four Lancebotics teams to 
+                                winning the design award, judges award, and build award. Turning Point 
+                                was an outstanding season that set the foundation for 200G’s VEX 
+                                journey. And now, we’re coming back for more. With seven new and four 
+                                returning members, 200G is ready to take on the field for another 
+                                season. We are ready for another year of hard work, perseverance, 
+                                friendships, and tears, and we are ready to demonstrate to the world 
+                                what this all-girls team from Toronto is capable of.
+                            </p>
+                            
+                            <br>
+                        </div>
+    
+                        <div class="col-sm-2">
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/CrystalJ.png">
+
+            <br>
+
+            <div class="row yellowback">
+                <div class="col-sm-12">
+                    <br>
                     
-                    <h2 class="name">
-                        Crystal J.
-                    </h2>
-					
-					<p class="center">
-						Co-Captain,
-						<br>Builder
-					</p>
-                </div>
-                
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/YasmineK.png">
-                    
-                    <h2 class="name">
-                        Yasmine K.
-                    </h2>
-					
-					<p class="center">
-						Programmer
-					</p>
-                </div>
-				
-				<div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/YiL.jpg">
-                    
-                    <h2 class="name">
-                        Yi L.
-                    </h2>
-					
-					<p class="center">
-						Builder
-					</p>
-                </div>
-                
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/LauraL.jpg">
-                    
-                    <h2 class="name">
-						Laura L.
-                    </h2>
-					
-					<p class="center">
-						Builder
-					</p>
+                    <h1 class="center green">
+                        Facts and Achievements
+                    </h1>
+
+                    <div class="row">
+                        <div class="col-sm-2">
+                        </div>
+    
+                        <div class="col-sm-8">
+                            <br>
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="black justify">
+                                        <li>
+                                            Founded by Crystal Jin and Sylvia Gehring to promote girls in STEM in the Leaside Community
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Ranked 16th place in Robot Skills in the province last season
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Received the Create and Judges awards last season at regional competitions
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Nominated for and receieved a sponsorship of $1000 from the Ontario Teachers Insurance Plan Sponsorship of School Projects and Initiatives
+                                        </li>
+                                        <br>
+                                    </ul>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <ul class="black justify">
+                                        <li>
+                                            Helped organize 
+                                            <a href="http://mechsavvy.ca" target="_blank" class="greenlink green">MeCh Savvy <img src="../media/special/arrowGreen.png"></a>
+                                            : a crash course robotics workshop in collaboration with the Canadian Association for Girls in Science
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Produced eight alumnae last season, all who pursued STEM or Business careers
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Received the Build award at the 2019 VEX Ontario Championship
+                                        </li>
+                                        <br>
+                                        <li>
+                                            Founded in 2018, a team of all girls consisting of mostly rookie members who are eager to learn
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-sm-2">
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <br>
+
+            <h1 class="center">
+                Meet the Members
+            </h1>
             
-            <hr>
+            <br>
             
-            <div class="row">
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/RachaelM.jpg">
-                    
-                    <h2 class="name">
-                        Rachael M.
-                    </h2>
-					
-					<p class="center">
-						Programmer
-					</p>
+            <div class="row nopad">
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/CrystalJ.png">
+
+                            <h1 class="center textpad">
+                                Crystal Jin 
+                            </h1>
+
+                            <p class="center white">
+                                200G Team Captain, Builder, Driver
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hi! I’m Crystal Jin and this is my 4th year on the LanceBotics
+                                team. I am the Team Captain and Driver of 200G. When I’m not doing 
+                                robotics -- which is pretty rare -- I participate in Junior 
+                                Achievement, DECA, and play on our school’s golf and field 
+                                hockey team. This season, I hope to qualify for the VEX 
+                                Robotics World Championships! With this being my final year 
+                                of high school and VEX, I hope to make it the most memorable. 
+                            </p>
+                        </div>
+                    </div>
                 </div>
-				
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/NadiaN.png">
-                    
-                    <h2 class="name">
-                        Nadia N.
-                    </h2>
-					
-					<p class="center">
-						Programmer
-					</p>
-                </div>
-                
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/SarahP.jpg">
-                    
-                    <h2 class="name">
-                        Sarah P.
-                    </h2>
-					
-					<p class="center">
-						Builder
-					</p>
-                </div>
-                
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/JayaR.jpg">
-                   
-                    <h2 class="name">
-                        Jaya R.
-                    </h2>
-					
-					<p class="center">
-						Builder,
-						<br>Queuer
-					</p>
+
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/YiL.jpg">
+
+                            <h1 class="center textpad">
+                                Yi Lian
+                            </h1>
+
+                            <p class="center white">
+                                Builder, Photographer
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hey! I’m Yi Lian, I’m in grade 12 and this is my 2nd year on 
+                                the LanceBotics team. I build, work on media (e.g. reveal videos, our 
+                                Girl Powered stories, etc.), and am responsible for the scouting 
+                                and strategies on 200G. Outside of robotics, I am a Learning 
+                                Centre Co-Chair for the Toronto District School Board Student 
+                                Senate, and I am also involved with my school's DECA and HOSA 
+                                clubs, yearbook committee, badminton team, and dragon boat crew. 
+                                I also hope to qualify for the VEX World Championships, but 
+                                more importantly, I hope to learn from new experiences and 
+                                develop connections with new friends this season.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/JinanS.jpg">
-                    
-                    <h2 class="name">
-                        Jinan S.
-                    </h2>
-					
-					<p class="center">
-						Programmer
-					</p>
+
+            <div class="row nopad">
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/SameenY.jpg">
+
+                            <h1 class="center textpad">
+                                Sameen Yousuf
+                            </h1>
+
+                            <p class="center white">
+                                Engineering Notebook, Photographer
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hey, my name is Sameen Yousuf and this is my first year on the 
+                                LanceBotics team. My role as a member in 200G is to document 
+                                everything that goes on during meetings, team sessions and 
+                                competitions in our engineering notebook. Outside of LanceBotics, 
+                                I am the president of Leaside’s Arts Council, a junior editor in 
+                                the school Chronicle, and a member of the Drama Club, Yearbook 
+                                Committee, and Stage Crew. I joined LanceBotics as an attempt 
+                                to try something new and be a part of something big. This year, 
+                                I hope to help my team qualify for Worlds and make new friends 
+                                along the way.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-				
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/TheaV.jpg">
-                   
-                    <h2 class="name">
-                        Thea V.
-                    </h2>
-					
-					<p class="center">
-						Builder
-					</p>
-                </div>
-				
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/SabrinaW.jpg">
-                    
-                    <h2 class="name">
-                        Sabrina W.
-                    </h2>
-					
-					<p class="center">
-						Builder, 
-						<br>Photographer
-					</p>
+
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/JayaR.jpg">
+
+                            <h1 class="center textpad">
+                                Jaya Roy
+                            </h1>
+
+                            <p class="center white">
+                                Builder, Media Team Co-Captain
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hey! My name is Jaya Roy, I am in grade 11 at Leaside High school 
+                                and this is my second year on LanceBotics. I am the other co-captain 
+                                of the media team and I’m a builder on 200G. Apart from robotics, I 
+                                am in stage crew, arts council, and law club. I hope to return to the 
+                                track team this year! This season, my goal is to learn how to be a 
+                                good media co-captain, help my team get to worlds, and get the highest 
+                                score in skills of all the LanceBotics teams. I’m excited to get this 
+                                season started and see what we can accomplish! 
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            
-            <hr>
+
+            <div class="row nopad">
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/AngelY.jpg">
+
+                            <h1 class="center textpad">
+                                Angel You
+                            </h1>
+
+                            <p class="center white">
+                                Programmer, Builder
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hey, my name is Angel You and is my first year of VEX Robotics. I am 
+                                both a builder and programmer on 200G. Other than robotics, I am involved 
+                                in rugby, lacrosse and fast pitch at school. Outside of school, I like to 
+                                do karate, play music, take pictures and learn new languages. This season, 
+                                I hope to simply enjoy my first year of Vex and make some memories with new 
+                                friends :)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/DashaA.jpg">
+
+                            <h1 class="center textpad">
+                                Dasha Akopyan
+                            </h1>
+
+                            <p class="center white">
+                                Photographer    
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hey, my name is Dasha Akopyan and this is my first year on the LanceBotics team 
+                                as the designated competition photographer. Outside of Robotics, I am co-leader 
+                                of the Leaside Chronicle and Leaside Concert band, and I participate in Peer 
+                                Tutoring and Stage Crew. With this year being my only year within Robotics, I 
+                                hope I’ll get to have great experiences with my team - this includes during 
+                                competitions and during alone time of course - and to take decent photos 
+                                for LanceBotics!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row nopad">
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/AlexM.png">
+
+                            <h1 class="center textpad">
+                                Alex Mohl
+                            </h1>
+
+                            <p class="center white">
+                                Programmer
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hello! My name is Alex Mohl and I’m in grade 11 at Leaside High School. This 
+                                is my first year in VEX. I’m a programmer on 200G. Outside of robotics, I 
+                                play hockey, badminton and rugby. I’m also the co-president of law club. This 
+                                season, my goal is to learn more about programming and expand knowledge of 
+                                coding. I’m super excited to be on 200G and can’t wait to meet new people 
+                                and get this season started!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/LauraL.jpg">
+
+                            <h1 class="center textpad">
+                                Laura Luong-Pires
+                            </h1>
+
+                            <p class="center white">
+                                Builder
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hi, my name is Laura and I'm currently in my third year of VEX Robotics as a 
+                                builder.  Aside from robotics, I enjoy playing video games, watching movies, 
+                                skateboarding, karate and dance to list a few. I look forward to competing 
+                                this year with my team and gain new experiences while having a great time!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row nopad">
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/GraceC.jpg">
+
+                            <h1 class="center textpad">
+                                Grace Campbell
+                            </h1>
+
+                            <p class="center white">
+                                Builder
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hi, my name is Grace, and I’m in grade 11 at Leaside. This is my first year in 
+                                LanceBotics, and I’m a builder on 200G. Some other clubs I’m a part of include 
+                                Law club, Arts council, and stage crew. This year I hope to learn more about 
+                                building strategies, and get 200G to worlds!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/SavitaP.jpg">
+
+                            <h1 class="center textpad">
+                                Savita Passi
+                            </h1>
+
+                            <p class="center white">
+                                Builder
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hey! My name is Savita Passi and I'm in grade 9 at Leaside High School. 
+                                This is my first year in LanceBotics and I am very happy that I got on 
+                                to the 200G team! Other clubs I do outside of robotics are DECA, Bronze
+                                Medallion Swimming, Piano, Indian Classical Dance and Kumon. My goal 
+                                for this year is to learn how to build a whole robot with minimal 
+                                guidance. This way, I can test myself if I really understand how to be 
+                                a builder! 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row nopad">
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/RileyV.jpg">
+
+                            <h1 class="center textpad">
+                                Riley Vilis
+                            </h1>
+
+                            <p class="center white">
+                                Builder
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hi, my name is Riley and I’m in grade 9 at Leaside High School. This is 
+                                my first year on LanceBotics and I am very excited about it! My role on 
+                                the team is a builder and programmer. Outside of robotics I play 
+                                basketball and swim. My goal for this year is to learn everything about 
+                                the process of building a robot from start to finish. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/IlliyanaI.jpg">
+
+                            <h1 class="center textpad">
+                                Illiyana Iacono
+                            </h1>
+
+                            <p class="center white">
+                                Builder
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hi, my name is Iliyana and I’m in grade 9. My role on the team is 
+                                builder. Beside robotics I enjoy listening to music, playing video 
+                                games and watching movies. My goal for this year is to learn how to 
+                                build robots and to be helpful to my team! The reason why I decided 
+                                to join  the team was because I have always been interested in robotics 
+                                and when I was younger I tried and failed multiple times to build a 
+                                robot.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row nopad">
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/IsabellaI.jpg">
+
+                            <h1 class="center textpad">
+                                Isabella Ing
+                            </h1>
+
+                            <p class="center white">
+                                Builder
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hi, my name is Bella and I’m in grade 9 at Leaside Highschool. This is 
+                                my first year on the LanceBotics 200G team. My role on the team is 
+                                builder. Other than being robotics, I’m also on the Eco club and I play 
+                                piano outside of school. My goal this year is to learn how robots work 
+                                and how to build a robot from start to finish. I’m excited to be part 
+                                of the team and make new memories!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/AlexisA.jpg">
+
+                            <h1 class="center textpad">
+                                Alexis Andrysek
+                            </h1>
+
+                            <p class="center white">
+                                Programmer
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hey, my name is Alexis Andrysek, I am in grade 9 at LHS and this is my 
+                                first year on the LanceBotics 200G team. My role on the team is 
+                                programmer. Some other activities I participate in include piano, 
+                                singing, rock climbing and skiing which I do outside of school. I also 
+                                enjoy art and reading. My goal for this year is to learn how to build 
+                                and code robots and pose as an asset to the team. I am excited for what 
+                                this experience will bring, creating new memories and friends and what 
+                                I will learn being a part of it!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row nopad">
+                <div class="col-sm-6 nopad">
+                    <div class="row nopad">
+                        <div class="col-sm-4 nopad">
+                            <img src="../media/members/YeanJ.jpg">
+
+                            <h1 class="center textpad">
+                                Yena Jeung
+                            </h1>
+
+                            <p class="center white">
+                                Programmer
+                            </p>
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p class="white justify">
+                                Hello, my name is Yena Jeung and I am a grade nine student at Leaside 
+                                High School. I wanted to join robotics because I have always been very 
+                                interested in this type of field. I was also partly inspired by my 
+                                uncle who works as a computer engineering professor at a Korean 
+                                university. As extracurricular activities, I play piano, flute and 
+                                cello. I also like to read books. I guess my goal would be to experience 
+                                this new environment and learn some things from it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br> 
+            <br>
             
             <div class="row">
-                    <p class="center">
-                        Interested in joining LanceBotics? Learn more <a href="teams.html">here</a>.
-                    </p>
-            </div>  
+                <div class="col-sm-12 textdivmargin">
+                    <h1 class="yellow center">
+                        <a class="center yellow yellowlink" href="teams.html">
+                            Return to Teams <img src="../media/special/arrowYellow.png">
+                        </a>
+                    </h1>
+                    
+                    <br>
+                </div>
+            </div>
         </div>
-                
-        <div class="footer row">
-            <div class="col-sm-6">
-                <p class="center">
-                    Designed with <a href="getbootstrap.com" target="_blank">Bootstrap</a>
-                </p>
+
+        <!-- Footer -->
+        <div class="foot">
+            <div class="row padded">
+                <!-- Team information -->
+                <div class="col-sm-4">
+                    <h2>
+                        Contact Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="mailto:lancebotics@gmail.com" target="_blank">
+                            LanceBotics@gmail.com <img src="../media/special/arrowGreen.png">
+                        </a>
+                        <br>
+                        416-396-2380 Ext: 20115
+                    </p>
+
+                    <h2>
+                        Connect with Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="https://www.youtube.com/channel/UCjgJsgbScXAeaFQKKcyPbvw" target="_blank">
+                            <img class="social facebook" src="../media/logos/youtube.png">
+
+                            YouTube <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="https://www.instagram.com/200_lancebotics/" target="_blank">
+                            <img class="social" src="../media/logos/instagram.png">
+
+                            Instagram <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                        
+                        <a class="green greenlink" href="https://twitter.com/200_lancebotics" target="_blank">
+                            <img class="social" src="../media/logos/twitter.png">
+
+                            Twitter <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                            
+                        <a class="green greenlink" href="https://www.facebook.com/lancebotics200/" target="_blank">
+                            <img class="social" src="../media/logos/facebook.png">
+
+                            Facebook <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                    
+                    <h2>
+                        Organization
+                    </h2>
+
+                    <p class="left">
+                        Leaside High School
+                        <br>
+                        Staff Advisor: Vincent Lu
+                        <br>
+                        Principal: Marisa Cocco
+                        <br>
+                        Vice Principals: Rosanna Kerigan and Barbara Nixon 
+                        <br>
+                        <a href="https://schoolweb.tdsb.on.ca/leasidehs" target="_bank" class="green greenlink">
+                            School Website <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+
+                <!-- School location on map -->
+                <div class="col-sm-4 connect">
+                    <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11535.875807364917!2d-79.372426!3d43.7111943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc81d16dcb1d2dfab!2sLeaside+High+School!5e0!3m2!1sen!2sbd!4v1566381482720!5m2!1sen!2sbd" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Website links -->
+                <div class="col-sm-4 right">
+                    <h2>
+                        Website Portal
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="../index.html">
+                            Home <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="teams.html">
+                            Teams <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="vex.html">
+                            VEX <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="community.html">
+                            Community <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="gallery.html">
+                            Gallery <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="competitions.html">
+                            Competitions <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="awards.html">
+                            Awards <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="sponsors.html">
+                            Sponsors <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+
+                    <br>
+
+                    <h2>
+                        Website Archive
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="archives/lancebotics2018/index.html" target="_blank">
+                            2018 - 2019 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2017/index.html" target="_blank">
+                            2017 - 2018 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2016/index.html" target="_blank">
+                            2016 - 2017 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2015/index.html" target="_blank">
+                            2015 - 2016 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2014/Index.html" target="_blank">
+                            2014 - 2015 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
             </div>
-                
-            <div class="col-sm-6">
-                <p class="center">
-                    LanceBotics 2019
-                </p>
-            </div> 
+
+            <!-- Footer ending -->
+            <div class="row center blackback">
+                <div class="col-sm-6">
+                    <br>
+
+                    <p>
+                        <a href="https://getbootstrap.com" class="green greenlink" target="_bank">
+                            Made with Bootstrap <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+    
+                <div class="col-sm-6">
+                    <br>
+                    
+                    <p class="green">
+                        Lancebotics 2019 - 2020
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
 </html>

@@ -1,194 +1,273 @@
-/* green: #5ab210, yellow: #ecd600 */
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca|Roboto&display=swap');
 
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+/* 
+Green: #28a745
+Yellow: #F1C439
+*/
 
-body {
-    font-family: 'Nunito', sans-serif;
-	overflow-x: hidden;
+/* Colours and Alignments */
+.green {
+    color: #28a745;
 }
 
-.logo {
-    max-height: 120%;
-    max-width: auto;
-    align: center;
+.yellow {
+    color: #F1C439;
 }
 
-.navbar-inverse {
-    border-color: #5ab210;
-    border-width: 0px;
-    border-radius: 0;
-    width: 100%;
-    display: block;
-    float: left;
-    background-color: black;
+.white {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
-.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
-    color: #ecd600;
-    background-color: #5ab210;
+.black {
+    color: black;
 }
 
-.navbar-inverse .navbar-nav > li > a {
-    color: #ecd600;
+.blackback {
+    background: black;
 }
 
-.dropdown-menu {
-    background-color: #5ab210;
-    color: #ecd600;
+.greenback {
+    background-color: #28a745;
 }
 
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
-    background-color: #5ab210;
-    color: #ecd600;    
+.yellowback {
+    background-color: #F1C439;
 }
 
-.dropdown-menu > li > a {
-    color: #ecd600;
+.whiteback {
+    background-color: white;
 }
 
-.dropdown-menu > li > a:hover {
-    color: #ecd600;
-    background-color: #5ab210;
-}
-
-.main {
-    width: 80%;
-    margin: auto;
-    padding: 50px 0px 50px 0px;
-    text-align: center;
-    display: block;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-    padding: 0px 0px 10px 0px;
-}
-
-.full {
-    max-width: 100%;
-}
-
-h2 {
-    font-family: 'Nunito', sans-serif;
-}
-
-p {
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
+.left {
     text-align: left;
 }
 
-li {
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-    text-align: left;
-}
-
-.mrv {
-    max-width: 100%;
+.right {
+    text-align: right;
 }
 
 .center {
     text-align: center;
 }
 
-.name {
-    font-size:22px;
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
-.contact {
-    text-align: left;
+.textdivmargin {
+    padding: 0 0 0 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.textpad {
+    padding: 0 20px 0 20px;
+}
+
+.nopad {
+    padding: 0 0 0 0;
+}
+
+.width {
+    width: 100%;
+}
+
+/* Tag items */
+body {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+nav {
+    background: white;
+}
+
+div {
+    display: block;
+    overflow: hidden;
 }
 
 a {
-    color: #5ab210;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
 }
 
 a:hover {
-    color: #ecd600;
     text-decoration: none;
 }
 
-a:visited {
-    color: #5ab210;
+a:visited:hover {
     text-decoration: none;
 }
 
-.map {
-    width: 100%;
-    min-height: 600px;
+p {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
 }
 
-.compmap {
-    width: 100%;
-    min-height: 400px;
-}
-.singlesponsor {
-    max-width: 25%;
+li {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
 }
 
-.duosponsor {
-    max-width: 80%;
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 36px;
 }
 
-.triosponsor {
-    max-width: 100%;
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 26px;
 }
 
-table {
-    width: 100%;
-}
-
-thead {
-    background-color: #ecd600;
-    color: #fff;
-}
-
-th {
+/* Above navbar */
+.nonstick {
     text-align: center;
-}
-
-.home {
-    max-height: 1000px;
-}
-
-.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    margin: auto;
-}
-
-.footer {
-  padding: 10px 0px 0px 0px;
-  background-color: #ecd600;
-}
-
-.btn-primary {
-    background-color: #5ab210;
-    color: #ecd600;
-}
-
-.thumbnail {
-    position: relative;
-}
-
-.caption {
-    position: absolute;
-    top: 45%;
-    left: 0;
+    object-fit: contain;
+    background: white;
     width: 100%;
 }
 
-@media (min-width: 0px) and (max-width: 1300px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-collapse.collapse.in {
-        display: block !important;
-    }
-    .navbar-header .collapse, .navbar-toggle {
-        display:block !important;
-    }
-    .navbar-header {
-        float:none;
-    }
+.logo {
+    width: 100%;
+}
+
+/* Navbar */
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 0px 5px 0px;
+    line-height: 1px;
+}
+
+.nav-link {
+    vertical-align: 50%;
+    padding: 10px 10px 10px 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #28a745;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #F1C439;
+}
+
+/* Content */
+.main {
+    background: #28a745;
+    margin: 0px 0px 0px 0px;
+    color: #F1C439;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.curved {
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    width: 90%;
+}
+
+.hrgreen {
+    background-color: #28a745;
+    width: 120%;
+    height: 12px;
+    border-top: 1px solid #28a745;
+    margin: 0px 0px 0px 0px;
+}
+
+.hryellow {
+    background-color: #F1C439;
+    width: 120%;
+    height: 12px;
+    border-top: 1px solid #F1C439;
+    margin: 0px 0px 0px 0px;
+}
+
+.sponsorlogo {
+    width: 95%;
+}
+
+/* Team Section */
+.teamimage {
+    position: relative;
+    text-align: center;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.teamsection:hover .teamimage {
+    opacity:0.3;
+    transition: .5s ease;
+}
+
+.teamcontent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.teamsection:hover .teamcontent {
+    opacity: 1;
+}
+
+/* Footer items */
+.foot {
+    color: #28a745;
+    line-height: 1.5;
+    border-top: 15px solid black;
+    background: white;
+}
+
+.foot .col-sm-4 p{
+    vertical-align: top;
+}
+
+.padded {
+    padding: 15px 15px 15px 15px;
+}
+
+.social {
+    height: 32px;
+}
+
+.footmap {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Override */
+.greenlink:hover {
+    color: #28a745;
+}
+
+.greenlink:visited {
+    color: #28a745;
+}
+
+.yellowlink:hover {
+    color: #F1C439;
+}
+
+.yellowlink:visited {
+    color: #F1C439;
 }

@@ -1,270 +1,484 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <title>
             LanceBotics 200 | A VEX Robotics Team from Toronto, Canada
         </title>
         
-        <link rel="icon" href="../image/yellowforkliftsmall.PNG">
-        
+        <!-- Tab icon -->
+        <link rel="icon" href="../media/logos/LanceBotics/LBIcon.png">
+
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Bootstrap scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="../css/style.css">
     </head>
-  
+
     <body>
-        <!-- Start of nagivation panel-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="../index.html"><img class="logo" src="../image/yellowforklift.png"></a>
-                </div>
+        <!-- Heading Section -->
+        <div class="nonstick">
+            <!-- Heading logo -->
+            <a href="../index.html">
+                <img class="logo" src="../media/logos/LanceBotics/LBLong.png">
+            </a>
+            <br>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="../index.html">
-                                Home
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="vex.html">
-                                VEX
-                            </a>
-                        </li>
+            <h2 class="green">
+                Representing Toronto and Canada at the VEX World Championship for over 4 years
+            </h2>
+        </div>
 
-                        <li>
-                            <a href="sponsors.html">
-                                Sponsors
-                            </a>
-                        </li>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <!-- Navbar logo -->
+            <ul class="navbar-nav">
+                <!-- Links to pages -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+            </ul>
 
-                        <li>
-                            <a href="awards.html">
-                                Awards
-                            </a>
-                        </li>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                        <li>
-                            <a href="competitions.html">
-                                Competitions
-                            </a>
-                        </li>
+            <!-- Collapsible items -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links to pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html">Teams</a>
+                    </li>
 
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Teams
-                                <span class="caret"></span>
-                            </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vex.html">VEX</a>
+                    </li>
 
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="teams.html">
-                                        Teams
-                                    </a>
-                                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="community.html">Community</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
 
-                                <li>
-                                    <a href="200X.html">
-                                        200X
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200C.html">
-                                        200C
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200G.html">
-                                        200G
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="200H.html">
-                                        200H
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="alumni.html">
-                                        Alumni
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="contact.html">
-                                Contact
-                            </a>
-                        </li>
-
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown">
-                                Archives
-                                <span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="archives/lancebotics2017/index.html" target="_blank">
-                                        2017 - 2018 Website
-                                    </a>
-                                </li>
-                                
-                                <li>
-                                    <a href="archives/lancebotics2016/index.html" target="_blank">
-                                        2016 - 2017 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2015/index.html" target="_blank">
-                                        2015 - 2016 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2014/Index.html" target="_blank">
-                                        2014 - 2015 Website
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="competitions.html">Competitions</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="awards.html">Awards</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsors.html">Sponsors</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <!-- End of nagivation panel-->
-        
+
         <div class="main">
-            <img class="triosponsor" src="../image/media/vex.png">
-            
-            <h2>
-                What is VEX?
-            </h2>
-            
-            <hr>
-            
-            <p>
-                VEX is a robotics platform to enrich STEM and Robotics education for all ages, and provides the tools and resources needed to create a robot and program it. 
-                Their goal is to lead students towards STEM-related futures to meet the global demand. 
-                They offer kits along with instructions for starters, who may eventually build whatever they imagine!
-            </p>
-            
-            <h2>
-                What is VEX Robotics Competition?
-            </h2>
-            
-            <hr>
-            
-            <p>
-                VEX enhances their robotics platform by allowing robotics teams to join VEX competitions with a specific game every year. 
-                With over 20,000 teams in over 40 countries, VEX Robotics Competition adds competitivity to robotics and STEM. 
-                With competitions in regional, provincial/state, and international categories, these competitions only increase in competitiveness throughout the season.
-            </p>
-            
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>
-                        The Game - Tower Takeover
-                    </h2>
+            <hr class="hryellow">
 
-                    <hr>
+            <!-- VEX welcome section -->
+            <div class="greenback">
+                <div class="row nopad">
+                    <div class="col-sm-4 nopad whiteback">
+                        <img src="../media/vex/VRC.jpg">
+                    </div>
+
+                    <div class="col-sm-4 textdivmargin">
+                        <br>
+
+                        <h1 class="yellow center">
+                            What is VEX?
+                        </h1>
+
+                        <p class="justify white textpad">
+                            VEX is a robotics platform to enrich STEM and Robotics education for all ages, 
+                            and provides the tools and resources needed to create a robot and program it. 
+                            Their goal is to lead students towards STEM-related futures to meet the global 
+                            demand. They offer kits along with instructions for beginners, who may 
+                            eventually build whatever they imagine!
+                        </p>
+                        
+                        <br>
+                    </div>
+                    
+                    <div class="col-sm-4 nopad whiteback">
+                        <img src="../media/vex/REC.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1st Section -->
+            <div class="row yellowback">
+                <div class="col-sm-4 textdivmargin">
+                    <div class="textpad green">
+                        <h1>
+                            More Than Just a Robot
+                        </h1>
+
+                        <p class="black justify">
+                            VEX isn’t just about making robots - it’s about empowering future creators, 
+                            thinkers, and innovators alike.
+                            VEX acts to increase the number of students choosing STEM courses by 
+                            inspiring youth with Robotics-based curriculum. Over 60 countries and 
+                            twenty-two thousand 22,000 schools take part in VEX activities, with 24,000 
+                            teams competing in <a class="green greenlink" href="competitions.html">VEX 
+                            Competitions <img src="../media/special/arrowGreen.png"></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-8 nopad">
+                    <img src="../media/vex/provincialsmatch.jpg">
+                </div>
+            </div>
+
+            <!-- 2nd Section -->
+            <div class="row greenback">
+                <div class="col-sm-8 nopad">
+                    <img src="../media/vex/flywheelop.jpg">
                 </div>
                 
-                <div class="col-md-6">
-                    <br>
-                    <br>
-                    <br>
-                    
-                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/_JVQOiw_OUU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
-                    <br>  
+                <div class="col-sm-4 textdivmargin">
+                    <div class="textpad yellow">
+                        <h1>
+                            Preparing Students for Real World Problems
+                        </h1>
+
+                        <p class="white justify">
+                            When students face problems, they need to know what to do.
+                            By providing learning opportunities to work together to create robots, students 
+                            are able to develop teamwork, creative, and critical thinking skills. The 
+                            challenging programs that VEX offers allow students to look at problems from a 
+                            different perspective - troubleshooting and finding the best possible solution 
+                            is key. By encouraging students to also work together, every student develops
+                            teamplayer abilities that they can apply in real life situations.
+                            In <a href="teams.html" class="yellow yellowlink">LanceBotics' 3 teams <img src="../media/special/arrowYellow.png"></a>,
+                            teamwork is never overlooked.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3rd Section -->
+            <div class="row yellowback">
+                <div class="col-sm-4 textdivmargin">
+                    <div class="textpad green">
+                        <h1>
+                            Competing Against the World
+                        </h1>
+
+                        <p class="black justify">
+                            The international stage is a big one.
+                            Members of Lancebotics and participants of VEX competitions may find themselves competing in 
+                            the VEX World Championship, a competition that draws out the best in student engineers and programmers. 
+                            Students can easily become immersed in the intense but engaging competition. A list of competitions 
+                            Lancebotics will be participating can be found <a class="green greenlink" href="competitions.html">here 
+                            <img src="../media/special/arrowGreen.png"></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-sm-8 nopad">
+                    <img src="../media/vex/worldstage.jpg">
+                </div>
+            </div>
+
+            <!-- 4th Section -->
+            <div class="row greenback">
+                <div class="col-sm-8 nopad">
+                    <img src="../media/vex/takeoverfield.jpg">
+                </div>
+
+                <div class="col-sm-4 textdivmargin">
+                    <div class="textpad yellow">
+                        <h1>
+                            The Game - Tower Takeover
+                        </h1>
+
+                        <p class="white justify">
+                            The stakes are high, and the stacks are higher. 
+                            Each year VEX introduces a new challenge that sparks ingenuity within students. 
+                            This year’s competition is Tower Takeover. Two teams 
+                            compete to collect and carry cubes to their designated zones. 
+                            Additionally, there are 7 towers located across the field. Each tower increases 
+                            the points value of a cube (+1 point) depending on what colour cube is placed 
+                            within the tower. With a total of 66 cubes evenly divided among 3 colours, 
+							Tower Takeover begins with a 15 second automated 
+                            period, and moves onto a minute and 45 second driver period.
+                        </p>
+
+                        <a href="https://youtu.be/_JVQOiw_OUU" target="_blank" class="yellow yellowlink">
+                            See the Tower Takeover video <img src="../media/special/arrowYellow.png">
+                        </a>
+
+                        <br>
+
+                        <a href="http://vexrobotics.com" target="_blank" class="yellow yellowlink">
+                            Go to the VEX website <img src="../media/special/arrowYellow.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sponsor section -->
+            <div class="row yellowback">
+                <!-- Sponsor text -->
+                <div class="col-sm-4 textdivmargin">
+                    <div class="textpad">
+                        <h1 class="green">
+                            Join the Family
+                        </h1>
+
+                        <p class="black justify">
+                            We don’t bite.
+                            Lancebotics welcomes all future and returning sponsors to the Lancebotics 
+                            Family. Support allows us to take part in competitions, strengthen our 
+                            team, and to promote STEM learning. We use funding for: 
+                        </p>
+
+                        <li class="black">
+                            Event Registration
+                        </li>
+                        
+                        <li class="black">
+                            Components/Hardware
+                        </li>
+                        
+                        <li class="black">
+                            Tools
+                        </li>
+                        
+                        <li class="black">
+                            Software Licenses
+                        </li>
+                        
+                        <li class="black">
+                            Field and Game Pieces
+                        </li>
+                        
+                        <br>
+                        
+                        <p class="black justify">
+                            Your support allows us to continue to participate in VEX competitions with 
+                            high quality robots, and to aim for the number one spot this season.
+                        </p>
+
+                        <a href="sponsors.html" class="green greenlink">
+                            Learn more <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </div>
                 </div>
                 
-                <div class="col-md-6">
-                    <h2 class="name">
-                        Summary
-                    </h2>
-                    
-                    <p>
-                        VEX Robotics Competition Tower Takeover is played on a 12’x12’ square field configured as seen above. Two (2) Alliances – one (1) “red” and one (1) “blue” – composed of two (2) Teams each, compete in matches consisting of a fifteen (15) second Autonomous Period, followed by a one minute and forty-five second (1:45) Driver Controlled Period.
-                    </p>
-                    
-                    <p>
-                        The object of the game is to attain a higher score than the opposing Alliance by placing Cubes in Towers, or scoring Cubes in Goals.
-                    </p>
-
-                    <table class="table table-bordered">
-                                               
-                        <tbody>
-                            <tr>
-                                <td>Each Green Cube Scored in a goal/td>
-                                <td>1 point + 1 point for every Green Cube Placed in Towers</td> 
-                            </tr>
-                            <tr>
-                                <td>Each Orange Cube Scored in a goal</td>
-                                <td>1 point + 1 point for every Orange Cube Placed in Towers</td> 
-                            </tr>
-                            <tr>
-                                <td>Each Purple Cube Scored in a goal</td>
-                                <td>1 point + 1 point for every Purple Cube Placed in Towers</td> 
-                            </tr>
-                            <tr>
-                                <td>Autonomous Bonus</td>
-                                <td>6 Points</td> 
-                            </tr>
-                        </tbody>
-                    </table>
-                <br>
-            </div>
-                
-            <div class="col-lg-12">
-            <p>
-                There are sixty-six 66 Cubes on a Tower Takeover Field. Twenty-two (22) Green, twenty-two (22) Orange and, twenty-two (22) Purple. There are also seven (7) Towers placed around the field. Five (5) of these are neutral, with the remaining two being alliance specific. Alliance specific Towers may only be utilized by robots of the same alliance.
-
-                <br><br>
-                Cubes can be Placed in Towers, or Scored in Goals. Cubes are worth at least 1 point when Placed in a Goal Zone. The exact value of each cube is determined by how many Cubes of that specific color have been Placed in Towers. When Cubes are Placed in or removed from Towers, the new values apply to ALL cubes. So the actions of one Robot will impact the potential score for both their own alliance, and their opponents.
-
-                <br><br>
-                The alliance that scores more points in the Autonomous period is awarded with (6) bonus points, added to the final score at the end of the match. The Alliance who wins this Autonomous Bonus is also awarded 2 purple cubes, which may be introduced at any time during the driver control period.
-            </p>
-            </div>
+                <div class="col-sm-8 nopad">
+                    <img src="../media/special/special.png">
+                </div>
             </div>
         </div>
-                
-        <div class="footer row">
-            <div class="col-sm-6">
-                <p class="center">
-                    Designed with <a href="getbootstrap.com" target="_blank">Bootstrap</a>
-                </p>
+
+        <!-- Footer -->
+        <div class="foot">
+            <div class="row padded">
+                <!-- Team information -->
+                <div class="col-sm-4">
+                    <h2>
+                        Contact Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="mailto:lancebotics@gmail.com" target="_blank">
+                            LanceBotics@gmail.com <img src="../media/special/arrowGreen.png">
+                        </a>
+                        <br>
+                        416-396-2380 Ext: 20115
+                    </p>
+
+                    <h2>
+                        Connect with Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="https://www.youtube.com/channel/UCjgJsgbScXAeaFQKKcyPbvw" target="_blank">
+                            <img class="social facebook" src="../media/logos/youtube.png">
+
+                            YouTube <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="https://www.instagram.com/200_lancebotics/" target="_blank">
+                            <img class="social" src="../media/logos/instagram.png">
+
+                            Instagram <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                        
+                        <a class="green greenlink" href="https://twitter.com/200_lancebotics" target="_blank">
+                            <img class="social" src="../media/logos/twitter.png">
+
+                            Twitter <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                            
+                        <a class="green greenlink" href="https://www.facebook.com/lancebotics200/" target="_blank">
+                            <img class="social" src="../media/logos/facebook.png">
+
+                            Facebook <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                    
+                    <h2>
+                        Organization
+                    </h2>
+
+                    <p class="left">
+                        Leaside High School
+                        <br>
+                        Staff Advisor: Vincent Lu
+                        <br>
+                        Principal: Marisa Cocco
+                        <br>
+                        Vice Principals: Rosanna Kerigan and Barbara Nixon 
+                        <br>
+                        <a href="https://schoolweb.tdsb.on.ca/leasidehs" target="_bank" class="green greenlink">
+                            School Website <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+
+                <!-- School location on map -->
+                <div class="col-sm-4 connect">
+                    <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11535.875807364917!2d-79.372426!3d43.7111943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc81d16dcb1d2dfab!2sLeaside+High+School!5e0!3m2!1sen!2sbd!4v1566381482720!5m2!1sen!2sbd" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Website links -->
+                <div class="col-sm-4 right">
+                    <h2>
+                        Website Portal
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="../index.html">
+                            Home <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="teams.html">
+                            Teams <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="vex.html">
+                            VEX <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="community.html">
+                            Community <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="gallery.html">
+                            Gallery <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="competitions.html">
+                            Competitions <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="awards.html">
+                            Awards <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="sponsors.html">
+                            Sponsors <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+
+                    <br>
+
+                    <h2>
+                        Website Archive
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="archives/lancebotics2018/index.html" target="_blank">
+                            2018 - 2019 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2017/index.html" target="_blank">
+                            2017 - 2018 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2016/index.html" target="_blank">
+                            2016 - 2017 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2015/index.html" target="_blank">
+                            2015 - 2016 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2014/Index.html" target="_blank">
+                            2014 - 2015 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
             </div>
-                
-            <div class="col-sm-6">
-                <p class="center">
-                    LanceBotics 2019
-                </p>
-            </div> 
+
+            <!-- Footer ending -->
+            <div class="row center blackback">
+                <div class="col-sm-6">
+                    <br>
+
+                    <p>
+                        <a href="https://getbootstrap.com" class="green greenlink" target="_bank">
+                            Made with Bootstrap <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+    
+                <div class="col-sm-6">
+                    <br>
+                    
+                    <p class="green">
+                        Lancebotics 2019 - 2020
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
 </html>

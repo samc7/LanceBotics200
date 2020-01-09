@@ -1,592 +1,1181 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <title>
             LanceBotics 200 | A VEX Robotics Team from Toronto, Canada
         </title>
         
-        <link rel="icon" href="../image/yellowforkliftsmall.PNG">
-        
+        <!-- Tab icon -->
+        <link rel="icon" href="../media/logos/LanceBotics/LBIcon.png">
+
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Bootstrap scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="../css/style.css">
     </head>
-  
+
     <body>
-        <!-- Start of nagivation panel-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="../index.html"><img class="logo" src="../image/yellowforklift.png"></a>
-				</div>
+        <!-- Heading Section -->
+        <div class="nonstick">
+            <!-- Heading logo -->
+            <a href="../index.html">
+                <img class="logo" src="../media/logos/LanceBotics/LBLong.png">
+            </a>
+            <br>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="../index.html">
-                                Home
-                            </a>
-                        </li>
+            <h2 class="green">
+                Representing Toronto and Canada at the VEX World Championship for over 4 years
+            </h2>
+        </div>
 
-                        <li>
-                            <a href="vex.html">
-                                VEX
-                            </a>
-                        </li>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <!-- Navbar logo -->
+            <ul class="navbar-nav">
+                <!-- Links to pages -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+            </ul>
 
-                        <li>
-                            <a href="sponsors.html">
-                                Sponsors
-                            </a>
-                        </li>
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                        <li>
-                            <a href="awards.html">
-                                Awards
-                            </a>
-                        </li>
+            <!-- Collapsible items -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links to pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html">Teams</a>
+                    </li>
 
-                        <li>
-                            <a href="competitions.html">
-                                Competitions
-                            </a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vex.html">VEX</a>
+                    </li>
 
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Teams
-                                <span class="caret"></span>
-                            </a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="community.html">Community</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
 
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="teams.html">
-                                        Teams
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200X.html">
-                                        200X
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200C.html">
-                                        200C
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200G.html">
-                                        200G
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="200H.html">
-                                        200H
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="alumni.html">
-                                        Alumni
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="contact.html">
-                                Contact
-                            </a>
-                        </li>
-
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown">
-                                Archives
-                                <span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="archives/lancebotics2017/index.html" target="_blank">
-                                        2017 - 2018 Website
-                                    </a>
-                                </li>
-                                
-                                <li>
-                                    <a href="archives/lancebotics2016/index.html" target="_blank">
-                                        2016 - 2017 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2015/index.html" target="_blank">
-                                        2015 - 2016 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2014/Index.html" target="_blank">
-                                        2014 - 2015 Website
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="competitions.html">Competitions</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="awards.html">Awards</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsors.html">Sponsors</a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <!-- End of nagivation panel-->
-        
-        <div class="main">
-            <h2>
-                2018 - 2019 VEX Robotics Competitions
-            </h2>
 
-            <hr>
-            
-            <p>
-                LanceBotics 200 is a VEX EDR team that competes in VEX Robotics Competitions to put robots to the test, through code and through building. In comeptitions, we aim to not only win, but make friends along the way to make the competitions more interactive.
-                <br><br>
-                Here you may find a list of all the competitions we shall attend or have attended thus far, along with <a href="https://vexdb.io/" target="_blank">https://vexdb.io/</a> team statistics links to our respective teams.
-            </p>
-            
-            <h2>
-                Past Competition
-            </h2>
-            
-            <hr>
-            
-            <div class="row">
-                <h2 class="name">
-					2019 VEX Robotics World Championships - April 24th to April 27th, 2019
-                </h2>
+        <div class="main">
+            <hr class="hryellow">
+
+            <!-- image row -->
+            <div class="row nopad">
+                <div class="col-sm-3 nopad">
+                    <img src="../media/team/Field.jpg">
+                </div>
                 
-                <div class="col-sm-6">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Team</th>
-                                <th>Position (Math Division)</th>
-                                <th>W - L - T</th>
-                            </tr>
-                        </thead>
-                    
-                        <tbody>
-                            <tr>
-                                <td>200X</td>
-                                <td>62nd</td>
-                                <td>4 - 6 - 1</td>
-                            </tr>
-                    </table>
-                    
-                    <p>
-                        The VEX Robotics World Championship, presented by the Northrop Grumman Foundation, brings together top robotics teams in the VEX IQ Challenge, VEX Robotics Competition, and VEX U under one roof to celebrate their accomplishments and participate with the best teams from around the world.
+                <div class="col-sm-3 nopad">
+                    <img src="../media/team/200G4.jpg">
+                </div>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/team/Field2.jpg">
+                </div>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/team/worlds.jpg">
+                </div>
+            </div>
+
+            <!-- Start section -->
+            <div class="row greenback">
+                <div class="col-sm-2">
+                </div>
+
+                <div class="col-sm-8">
+                    <br>
+
+                    <h1 class="yellow center">
+                        Competitions
+                    </h1>
+
+                    <br>
+
+                    <p class="white justify">
+                        From Regional Competitions, to the Provincial Championship, to the World Championship. LanceBotics has repeated this process
+                        4 out of the 6 seasons we have competed, aiming to represent not only Toronto, but Canada as a whole.
+                        Each season, we compete at several Regional Competitions around the Greater Toronto Area to qualify and practice for the 
+                        Provincial Championship. Since the 2016-2017 Starstruck season, all LanceBotics robot teams have qualified for the Ontario Provincial
+                        Championship every year -- and we aim to make this year no different from the past -- as 200X has already qualified through winning the 
+                        Toronto VEX Competition! Below you may find a list of our upcoming competitions, as well as our results from past competitions.
                     </p>
+
+                    <br>
                 </div>
                 
-                <div class="col-sm-6">
-					<iframe class="compmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12541.917061675527!2d-85.7413215!3d38.1987684!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa8fea410c17bfed9!2sKentucky+Exposition+Center!5e0!3m2!1sen!2sca!4v1553216711932" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
-            </div> 
-            
-            <div class="row">
-                <h2 class="name">
-                     Ontario VRC Provincial Championship - February 23rd, 2019
-                </h2>
+                <div class="col-sm-2">
+                </div>
+            </div>
+
+            <div class="yellowback">
+                <br>
                 
-                <div class="col-sm-6">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Team</th>
-                                <th>Position</th>
-                                <th>W - L - T</th>
-								<th>Skills Rank, Score</th>
-                            </tr>
-                        </thead>
-                    
-                        <tbody>
-							<tr>
-                                <td>200C</td>
-                                <td>25th</td>
-                                <td>3 - 4 - 0</td>
-								<td>36th, 17</td>
-                            </tr>
-                            <tr>
-                                <td>200G</td>
-                                <td>15th (Round of 16)</td>
-                                <td>4 - 1 - 2</td>
-								<td>15th, 27</td>
-                            </tr>
+                <h1 class="center green">
+                    Next Competition
+                </h1>
+                
+                <br>
+
+                <div class="row yellowback">
+                    <div class="col-sm-6 nopad">
+                        <br>
+
+                        <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-19-8537.html" target="_blank">
+                            <h2 class="green center">
+                                2020 VRC Appleby College Tower Takeover <img src="../media/special/arrowGreen.png">
+                            </h2>
+                        </a>
+
+                        <p class="black center">
+                            January 25th, 2020
+                        </p>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h2 class="center green">
+                                    200G
+                                </h2>
+
+                                <p class="center black">
+                                    Position TBD
+                                </p>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h2 class="center green">
+                                    200H
+                                </h2>
+
+                                <p class="center black">
+                                    Position TBD
+                                </p>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h2 class="center green">
+                                    200X
+                                </h2>
+
+                                <p class="center black">
+                                    Position TBD
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2 class="green center">
+                            Awards Available
+                        </h2>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Tournament Champions (2)
+                                </li>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Excellence Award (1)
+                                </li>
+                            </div>
                             
-                            <tr>
-                                <td>200H</td>
-                                <td>29th</td>
-                                <td>3 - 4 - 0</td>
-								<td>50th, 11</td>
-                            </tr>
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Design Award (1)
+                                </li>
+                            </div>
+                        </div>
+                        
+                        <br>
+                    </div>
+
+                    <div class="col-sm-6 nopad">
+                        <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d55960.20358827999!2d-79.686323!3d43.426855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc569b9af81470ec4!2sAppleby%20College!5e1!3m2!1sen!2sca!4v1576300145137!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- past competitions -->
+            <div class="greenback">
+                <br>
+
+                <h1 class="yellow center">
+                    Past Competitions
+                </h1>
+
+                <br>
+
+                <div class="row greenback">
+                    <div class="col-sm-6 nopad">
+                        <br> 
+
+                        <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-19-0189.html" target="_blank">
+                            <h2 class="yellow center">
+                                2019 Brampton iDesign VRC <img src="../media/special/arrowYellow.png">
+                            </h2>
+                        </a>
+
+                        <p class="white center">
+                            December 7th, 2019
+                        </p>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h2 class="center yellow">
+                                    200G
+                                </h2>
+
+                                <p class="center white">
+                                    5th, (5-1-0)
+                                    <br>
+                                    Round of 16
+                                    <br>
+                                    10th in Skills
+                                </p>
+                            </div>
                             
-                            <tr>
-                                <td>200X</td>
-                                <td>30th (Round of 16)</td>
-                                <td>4 - 3 - 0</td>
-								<td>21st, 23</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    
-                    <p>
-						This is the Ontario Provincial Championship for VEX EDR. Teams from all over Ontario, as well as some Quebec teams, competed to advance for the 2019 VEX Robotics World Championship in April.
-						<br><br>
-                        Teams had the opportunity to participate and submit a Skills Challenge score by scoring the highest amount of points in driver skills and programming skills combined, each must be completed in a minute.                    </p>
-                    </p>
-                </div>
-                
-                <div class="col-sm-6">
-					<iframe class="compmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6566.801437805053!2d-79.23410366357898!3d43.202573944544746!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe5ad22e8681490c6!2sGovernor+Simcoe+Secondary+School!5e0!3m2!1sen!2sca!4v1553220740828" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-            </div> 
-			
-            <div class="row">
-                <h2 class="name">
-                    iDesign Central Toronto VRC Qualifying Event - February 9th, 2019
-                </h2>
-                
-                <div class="col-sm-6">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Team</th>
-                                <th>Position</th>
-                                <th>W - L - T</th>
-								<th>Skills Rank, Score</th>
-                            </tr>
-                        </thead>
-                    
-                        <tbody>
-							<tr>
-                                <td>200C</td>
-                                <td>19th (Quarterfinalists)</td>
-                                <td>6 - 1 - 0</td>
-								<td>4th, 25</td>
-                            </tr>
-                            <tr>
-                                <td>200G</td>
-                                <td>19th (Round of 16)</td>
-                                <td>4 - 2 - 1</td>
-								<td>N/A</td>
-                            </tr>
+                            <div class="col-sm-4">
+                                <h2 class="center yellow">
+                                    200H
+                                </h2>
+
+                                <p class="center white">
+                                    13th, (4-2-0)
+                                    <br>
+                                    Round of 16
+                                    <br>
+                                    21st in Skills
+                                </p>
+                            </div>
                             
-                            <tr>
-                                <td>200H</td>
-                                <td>18th</td>
-                                <td>5 - 2 - 0</td>
-								<td>N/A</td>
-                            </tr>
+                            <div class="col-sm-4">
+                                <h2 class="center yellow">
+                                    200X
+                                </h2>
+
+                                <p class="center white">
+                                    11th, (5-1-0)
+                                    <br>
+                                    Semifinalists
+                                    <br>
+                                    2nd in Skills
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2 class="yellow center">
+                            Awards Won
+                        </h2>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                            </div>
+
+                            <div class="col-sm-4">
+                                <li class="white center">
+                                    Tournament Semifinalists, 200X
+                                </li>
+                            </div>
+                        </div>
+                        
+                        <br>
+                        
+                        <a class="yellow yellowlink" href="community.html">
+                            <p class="yellow center">
+                                Read about our experience <img src="../media/special/arrowYellow.png">
+                            </p>    
+                        </a>
+                        
+                        <a class="yellow yellowlink" href="galleryCastlebrooke.html">
+                            <p class="yellow center">
+                                View highlights <img src="../media/special/arrowYellow.png">
+                            </p>    
+                        </a>
+                        
+                        <br>
+                    </div>
+
+                    <div class="col-sm-6 nopad">
+                        <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13799.485025939066!2d-79.67739859999999!3d43.7844071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdb89d23e319725c8!2sCastlebrooke%20Secondary%20School!5e1!3m2!1sen!2sca!4v1577236605851!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
+                <hr class="hryellow">
+
+                <div class="row greenback">
+                    <div class="col-sm-6 nopad">
+                        <br> 
+
+                        <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-19-0224.html" target="_blank">
+                            <h2 class="yellow center">
+                                2019 Toronto VEX <img src="../media/special/arrowYellow.png">
+                            </h2>
+                        </a>
+
+                        <p class="white center">
+                            November 30th, 2019
+                        </p>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h2 class="center yellow">
+                                    200G
+                                </h2>
+
+                                <p class="center white">
+                                    16th, (4-2-0)
+                                    <br>
+                                    Quarterfinalists
+                                    <br>
+                                    9th in Skills
+                                </p>
+                            </div>
                             
-                            <tr>
-                                <td>200X</td>
-                                <td>24th (Semifinalists)</td>
-                                <td>4 - 3 - 0</td>
-								<td>7th, 18</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    
-                    <p>
-                        This is a Toronto Regional competition for VEX EDR. Teams from all over Ontario competed to advance for the 2019 Ontario Provincial VEX Robotics Championship in February.
-                        <br><br>
-                        Teams had the opportunity to participate and submit a Skills Challenge score by scoring the highest amount of points in driver skills and programming skills combined, each must be completed in a minute.                    </p>
-                    </p>
-                </div>
-                
-                <div class="col-sm-6">
-                    <iframe class="compmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11541.037099882828!2d-79.418007!3d43.6843729!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2a5c5769f51e370!2sSt.+Michael&#39;s+College+School!5e0!3m2!1sen!2sca!4v1515381295702" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-            </div> 
-			
-            <div class="row">
-                <h2 class="name">
-                    Brampton Robotics VRC Qualifying Event - February 2nd, 2019
-                </h2>
-                
-                <div class="col-sm-6">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Team</th>
-                                <th>Position</th>
-                                <th>W - L - T</th>
-								<th>Skills Rank, Score</th>
-                            </tr>
-                        </thead>
-                    
-                        <tbody>
-							<tr>
-                                <td>200C</td>
-                                <td>1st (Finalists)</td>
-                                <td>7 - 0 - 0</td>
-								<td>12th, 17</td>
-                            </tr>
-                            <tr>
-                                <td>200G</td>
-                                <td>23rd (Round of 16)</td>
-                                <td>4 - 3 - 0</td>
-								<td>N/A</td>
-                            </tr>
+                            <div class="col-sm-4">
+                                <h2 class="center yellow">
+                                    200H
+                                </h2>
+
+                                <p class="center white">
+                                    56th, (1-4-1)
+                                </p>
+                            </div>
                             
-                            <tr>
-                                <td>200H</td>
-                                <td>24th (Round of 16)</td>
-                                <td>4 - 3 - 0</td>
-								<td>10th, 18</td>
-                            </tr>
+                            <div class="col-sm-4">
+                                <h2 class="center yellow">
+                                    200X
+                                </h2>
+
+                                <p class="center white">
+                                    5th, (6-0-0)
+                                    <br>
+                                    Tournament Champion
+                                    <br>
+                                    1st in Skills
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2 class="yellow center">
+                            Awards Won
+                        </h2>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <li class="white center">
+                                    Tournament Champion, 200X (Provincial Qualifying)
+                                </li>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <li class="white center">
+                                    Excellence Award, 200X (Provincial Qualifying)
+                                </li>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <li class="white center">
+                                    Robot Skills Champion, 200X (Provincial Qualifying)
+                                </li>
+                            </div>
+                        </div>
+                        
+                        <br>
+
+                        <a class="yellow yellowlink" href="community.html">
+                            <p class="yellow center">
+                                Read about our experience <img src="../media/special/arrowYellow.png">
+                            </p>    
+                        </a>
+                        
+                        <a class="yellow yellowlink" href="galleryWoburn.html">
+                            <p class="yellow center">
+                                View highlights <img src="../media/special/arrowYellow.png">
+                            </p>    
+                        </a>
+
+                        <br>
+                    </div>
+
+                    <div class="col-sm-6 nopad">
+                        <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d795.8148356563179!2d-79.22381116248458!3d43.76777458920546!2m3!1f336.65961945031734!2f55.192573894207676!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x0%3A0x489469bdf14b13e2!2sWoburn%20Collegiate%20Institute!5e1!3m2!1sen!2sca!4v1576299557914!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
+                <hr class="hryellow">
+
+                <div class="row greenback">
+                    <div class="col-sm-6 nopad">
+                        <br> 
+
+                        <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-18-6082.html" target="_blank">
+                            <h2 class="yellow center">
+                                2019 VEX Robotics World Championship <img src="../media/special/arrowYellow.png">
+                            </h2>
+                        </a>
+
+                        <p class="white center">
+                            April 24th - 27th, 2019
+                        </p>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h2 class="center yellow">
+                                    200X
+                                </h2>
+
+                                <p class="center white">
+                                    62nd in Math Division, (4-6-1)
+                                    <br>
+                                    200th in Overall Skills
+                                </p>
+                            </div>
+                        </div>
+
+                        <br>
+                        
+                        <a class="yellow yellowlink" href="community.html">
+                            <p class="yellow center">
+                                Read about our experience <img src="../media/special/arrowYellow.png">
+                            </p>    
+                        </a>
+                        
+                        <a class="yellow yellowlink" href="galleryWorld.html">
+                            <p class="yellow center">
+                                View highlights <img src="../media/special/arrowYellow.png">
+                            </p>    
+                        </a>
+
+                        <br>
+                    </div>
+
+                    <div class="col-sm-6 nopad">
+                        <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15132.135580822529!2d-85.741474!3d38.19911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa8fea410c17bfed9!2sKentucky%20Exposition%20Center!5e1!3m2!1sen!2sca!4v1576299655631!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
+                <hr class="hryellow">
+
+                <div class="row greenback">
+                    <div class="col-sm-6 nopad">
+                        <br> 
+
+                        <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-18-5506.html" target="_blank">
+                            <h2 class="yellow center">
+                                2019 Ontario VRC Provincial Championship <img src="../media/special/arrowYellow.png">
+                            </h2>
+                        </a>
+
+                        <p class="white center">
+                            February 23rd, 2019
+                        </p>
+
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h2 class="center yellow">
+                                    200C
+                                </h2>
+
+                                <p class="center white">
+                                    45th, (3-4-0)
+                                    <br>
+                                    36th in Skills
+                                </p>
+                            </div>
+
+                            <div class="col-sm-3">
+                                <h2 class="center yellow">
+                                    200G
+                                </h2>
+
+                                <p class="center white">
+                                    15th, (4-1-2)
+                                    <br>
+                                    Round of 16
+                                    <br>
+                                    15th in Skills
+                                </p>
+                            </div>
                             
-                            <tr>
-                                <td>200X</td>
-                                <td>13th (Quarterfinalists)</td>
-                                <td>5 - 2 - 0</td>
-								<td>15th, 12</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    
-                    <p>
-                        This is a Brampton Regional competition for VEX EDR. Teams from all over Ontario competed to advance for the 2019 Ontario Provincial VEX Robotics Championship in February.
-                        <br><br>
-                        Teams had the opportunity to participate and submit a Skills Challenge score by scoring the highest amount of points in driver skills and programming skills combined, each must be completed in a minute.                    </p>
-                    </p>
-                </div>
-                
-                <div class="col-sm-6">
-					<iframe class="compmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.0067913263842!2d-79.78887648408902!3d43.66882857912071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b14fd11ea5b5b%3A0x97a92c2acfe2ebf5!2sDavid+Suzuki+Secondary+School!5e0!3m2!1sen!2sca!4v1553222702033" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-            </div> 
-			<div class="row">
-                <h2 class="name">
-                     Mississauga VRC Qualifying Event - December 15th, 2018
-                </h2>
-                
-                <div class="col-sm-6">
-                    <table class="table table-bordered">
-                       <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Team</th>
-                                <th>Position</th>
-                                <th>W - L - T</th>
-								<th>Skills Rank, Score</th>
-                            </tr>
-                        </thead>
-                    
-                        <tbody>
-                            <tr>
-                                <td>200C</td>
-                                <td>27th (Quarterfinalists)</td>
-                                <td>2 - 4 - 1</td>
-								<td>5th, 23</td>
-                            </tr>
-							
-							<tr>
-                                <td>200G</td>
-                                <td>7th (Quarterfinalists)</td>
-                                <td>5 - 2 - 0</td>
-								<td>8th, 22</td>
-                            </tr>
-							
-							<tr>
-                                <td>200H</td>
-                                <td>35th</td>
-                                <td>0 - 7 - 0</td>
-								<td>N/A</td>
-                            </tr>
-							
-							<tr>
-                                <td>200X</td>
-                                <td>6th (Semifinalists)</td>
-                                <td>5 - 2 - 0</td>
-								<td>4th, 26</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    
-                    <p>
-                        This is a Mississauga Regional competition for VEX EDR. Teams from all over Ontario competed to advance for the 2019 Ontario Provincial VEX Robotics Championship in February.
-                        <br><br>
-                        Teams had the opportunity to participate and submit a Skills Challenge score by scoring the highest amount of points in driver skills and programming skills combined, each must be completed in a minute.                    </p>
-                </div>
-                
-                <div class="col-sm-6">
-					<iframe class="compmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11559.448056457879!2d-79.6837785!3d43.5885904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4349d131f34e437!2sRick+Hansen+Secondary+School!5e0!3m2!1sen!2sca!4v1553222241407" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-            </div>  
-			
-			<div class="row">
-                <h2 class="name">
-                    Brampton iDesign Solutions VRC - December 1st, 2018
-                </h2>
-                
-                <div class="col-sm-6">
-                    <table class="table table-bordered">
-                       <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Team</th>
-                                <th>Position</th>
-                                <th>W - L - T</th>
-								<th>Skills Rank, Score</th>
-                            </tr>
-                        </thead>
-                    
-                        <tbody>
-                            <tr>
-                                <td>200X</td>
-                                <td>3rd (Finalists)</td>
-                                <td>7 - 0 - 0</td>
-								<td>3rd, 17</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    
-                    <p>
-                        This is a Brampton Regional competition for VEX EDR. Teams from all over Ontario competed to advance for the 2019 Ontario Provincial VEX Robotics Championship in February.
-                        <br><br>
-                        Teams had the opportunity to participate and submit a Skills Challenge score by scoring the highest amount of points in driver skills and programming skills combined, each must be completed in a minute.                    </p>
-                </div>
-                
-                <div class="col-sm-6">
-                    <iframe class="compmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4900.7191951083005!2d-79.6790468504919!3d43.782922981302264!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdb89d23e319725c8!2sCastlebrooke+Secondary+School!5e0!3m2!1sen!2sca!4v1515357869330" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-            </div>            
-            
-            <div class="row">
-                <h2 class="name">
-                    Toronto VEX VRC - Novermber 24th, 2018
-                </h2>
-                
-                <div class="col-sm-6">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Team</th>
-                                <th>Position</th>
-                                <th>W - L - T</th>
-								<th>Skills Rank, Score</th>
-                            </tr>
-                        </thead>
-                    
-                        <tbody>
-							<tr>
-                                <td>200C</td>
-                                <td>36th</td>
-                                <td>3 - 4 - 0</td>
-								<td>N/A</td>
-                            </tr>
-                            <tr>
-                                <td>200G</td>
-                                <td>17th (Quarterfinalists)</td>
-                                <td>4 - 2 - 1</td>
-								<td>N/A</td>
-                            </tr>
+                            <div class="col-sm-3">
+                                <h2 class="center yellow">
+                                    200H
+                                </h2>
+
+                                <p class="center white">
+                                    41st, (3-4-0)
+                                    <br>
+                                    50th in Skills
+                                </p>
+                            </div>
                             
-                            <tr>
-                                <td>200H</td>
-                                <td>41st (Quarterfinalists)</td>
-                                <td>2 - 5 - 0</td>
-								<td>11th, 7</td>
-                            </tr>
+                            <div class="col-sm-3">
+                                <h2 class="center yellow">
+                                    200X
+                                </h2>
+
+                                <p class="center white">
+                                    30th, (4-3-0)
+                                    <br>
+                                    Round of 16
+                                    <br>
+                                    21st in Skills
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2 class="yellow center">
+                            Awards Won
+                        </h2>
+
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <li class="white center">
+                                    Think Award, 200X (Worlds Qualifying)
+                                </li>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <li class="white center">
+                                    Build Award, 200G
+                                </li>
+                            </div>
+                        </div>
+                        
+                        <br>
+                        
+                        <a class="yellow yellowlink" href="community.html">
+                            <p class="yellow center">
+                                Read about our experience <img src="../media/special/arrowYellow.png">
+                            </p>    
+                        </a>
+                        
+                        <a class="yellow yellowlink" href="galleryProvincial.html">
+                            <p class="yellow center">
+                                View highlights <img src="../media/special/arrowYellow.png">
+                            </p>    
+                        </a> 
+
+                        <br>
+                    </div>
+
+                    <div class="col-sm-6 nopad">
+                        <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7020.902397703231!2d-79.233957!3d43.202463!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe5ad22e8681490c6!2sGovernor%20Simcoe%20Secondary%20School!5e1!3m2!1sen!2sca!4v1576299718030!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- upcoming competitions start here -->
+            <div class="yellowback">
+                <br>
+
+                <h1 class="green center">
+                    Upcoming Competitions
+                </h1>
+
+                <br>
+
+                <div class="row yellowback">
+                    <div class="col-sm-6 nopad">
+                        <br> 
+
+                        <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-19-0214.html" target="_blank">
+                            <h2 class="green center">
+                                2020 Brampton VRC Qualifying Event <img src="../media/special/arrowGreen.png">
+                            </h2>
+                        </a>
+
+                        <p class="black center">
+                            February 1st, 2020
+                        </p>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h2 class="center green">
+                                    200G
+                                </h2>
+
+                                <p class="center black">
+                                    Position TBD
+                                </p>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h2 class="center green">
+                                    200H
+                                </h2>
+
+                                <p class="center black">
+                                    Position TBD
+                                </p>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h2 class="center green">
+                                    200X
+                                </h2>
+
+                                <p class="center black">
+                                    Position TBD
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2 class="green center">
+                            Awards Available
+                        </h2>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Tournament Champions (2)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Tournament Finalists (2)
+                                </li>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Excellence Award (1)
+                                </li>
+                                
+                                <br>
+                                
+                                <li class="black center">
+                                    Robot Skills Champion (1)
+                                </li>
+                            </div>
                             
-                            <tr>
-                                <td>200X</td>
-                                <td>16th (Semifinalists)</td>
-                                <td>5 - 2 - 0</td>
-								<td>7th, 11</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    
-                    <p>
-                        This is a Toronto Regional competition for VEX EDR. Teams from all over Ontario competed to advance for the 2019 Ontario Provincial VEX Robotics Championship in February.
-                        <br><br>
-                        Teams had the opportunity to participate and submit a Skills Challenge score by scoring the highest amount of points in driver skills and programming skills combined, each must be completed in a minute.                    </p>
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Design Award (1)
+                                </li>
+                            </div>
+                        </div>
+
+                        <br>
+                    </div>
+
+                    <div class="col-sm-6 nopad">
+                        <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6962.414129592707!2d-79.786541!3d43.669333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97a92c2acfe2ebf5!2sDavid%20Suzuki%20Secondary%20School!5e1!3m2!1sen!2sca!4v1576300076928!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
+                <hr class="hrgreen">
+
+                <div class="row yellowback">
+                    <div class="col-sm-6 nopad">
+                        <br> 
+
+                        <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-19-8358.html" target="_blank">
+                            <h2 class="green center">
+                                2020 iDesign Central Toronto VRC Qualifying Event <img src="../media/special/arrowGreen.png">
+                            </h2>
+                        </a>
+
+                        <p class="black center">
+                            February 8th, 2020
+                        </p>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h2 class="center green">
+                                    200G
+                                </h2>
+
+                                <p class="center black">
+                                    Position TBD
+                                </p>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h2 class="center green">
+                                    200H
+                                </h2>
+
+                                <p class="center black">
+                                    Position TBD
+                                </p>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <h2 class="center green">
+                                    200X
+                                </h2>
+
+                                <p class="center black">
+                                    Position TBD
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2 class="green center">
+                            Awards Available
+                        </h2>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Tournament Champions (2)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Tournament Finalists (2)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Amaze Award (1)
+                                </li>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Excellence Award (1)
+                                </li>
+                                
+                                <br>
+                                
+                                <li class="black center">
+                                    Robot Skills Champion (1)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Build Award (1)
+                                </li>
+                            </div>
+                            
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Design Award (1)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Innovate Award (1)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Robot Skills Champion (1)
+                                </li>
+                            </div>
+                        </div>
+
+                        <br>
+                    </div>
+
+                    <div class="col-sm-6 nopad">
+                        <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13918.926614160391!2d-79.418011!3d43.684641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd2a5c5769f51e370!2sSt.%20Michael&#39;s%20College%20School!5e1!3m2!1sen!2sca!4v1576299882973!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+
+                <hr class="hrgreen">
+
+                <div class="row yellowback">
+                    <div class="col-sm-6 nopad">
+                        <br> 
+
+                        <a href="https://www.robotevents.com/robot-competitions/vex-robotics-competition/RE-VRC-19-8481.html" target="_blank">
+                            <h2 class="green center">
+                                2020 Ontario VRC Provincial Championship <img src="../media/special/arrowGreen.png">
+                            </h2>
+                        </a>
+
+                        <p class="black center">
+                            February 29th, 2020
+                        </p>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+
+                            </div>
+                            
+                            <div class="col-sm-4">
+                                <h2 class="center green">
+                                    200X
+                                </h2>
+
+                                <p class="center black">
+                                    Position TBD
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2 class="green center">
+                            Awards Available
+                        </h2>
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Tournament Champions (2)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Tournament Finalists (2)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Tournament Semifinalists (4)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Amaze Award (1)
+                                </li>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Excellence Award (1)
+                                </li>
+                                
+                                <br>
+                                
+                                <li class="black center">
+                                    Robot Skills Champion (1)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Build Award (1)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Judges Award (1)
+                                </li>
+                            </div>
+                            
+                            <div class="col-sm-4">
+                                <li class="black center">
+                                    Design Award (1)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Innovate Award (1)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Robot Skills Champion (1)
+                                </li>
+
+                                <br>
+
+                                <li class="black center">
+                                    Think Award (1)
+                                </li>
+                            </div>
+                        </div>
+
+                        <br>
+                    </div>
+
+                    <div class="col-sm-6 nopad">
+                        <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7020.902397703231!2d-79.233957!3d43.202463!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe5ad22e8681490c6!2sGovernor%20Simcoe%20Secondary%20School!5e1!3m2!1sen!2sca!4v1576299718030!5m2!1sen!2sca" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sponsor section -->
+            <div class="row greenback">
+                <!-- Sponsor text -->
+                <div class="col-sm-4 textdivmargin">
+                    <div class="textpad">
+                        <h1 class="yellow">
+                            Join the Family
+                        </h1>
+
+                        <p class="white justify">
+                            We don’t bite.
+                            Lancebotics welcomes all future and returning sponsors to the Lancebotics 
+                            Family. Support allows us to take part in competitions, strengthen our 
+                            team, and to promote STEM learning. We use funding for: 
+                        </p>
+
+                        <li class="white">
+                            Event Registration
+                        </li>
+                        
+                        <li class="white">
+                            Components/Hardware
+                        </li>
+                        
+                        <li class="white">
+                            Tools
+                        </li>
+                        
+                        <li class="white">
+                            Software Licenses
+                        </li>
+                        
+                        <li class="white">
+                            Field and Game Pieces
+                        </li>
+                        
+                        <br>
+                        
+                        <p class="white justify">
+                            Your support allows us to continue to participate in VEX competitions with 
+                            high quality robots, and to aim for the number one spot this season.
+                        </p>
+
+                        <a href="sponsors.html" class="yellow yellowlink">
+                            Learn more <img src="../media/special/arrowYellow.png">
+                        </a>
+                    </div>
                 </div>
                 
-                <div class="col-sm-6">
-                    <iframe class="compmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.746794555728!2d-79.23020988423629!3d43.77811465236179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d0f5eca8fd77%3A0x489469bdf14b13e2!2sWoburn+Collegiate+Institute!5e0!3m2!1sen!2sca!4v1515360825332" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-            </div> 
-			
-            <h2>
-                VexDB Team Statistics
-            </h2>
-            
-            <hr>
-            
-            <div class="row">
-                <div class="col-sm-3">
-                    <p class="center">
-                        200X
-                    </p>
-                    
-                    <a class="center" href="https://vexdb.io/teams/view/200X" target="_blank">https://vexdb.io/teams/view/200X</a>
-                </div>
-                
-                <div class="col-sm-3">
-                    <p class="center">
-                        200C
-                    </p>
-                    
-                    <a class="center" href="https://vexdb.io/teams/view/200C" target="_blank">https://vexdb.io/teams/view/200C</a>
-                </div>
-                
-                <div class="col-sm-3">
-                    <p class="center">
-                        200G
-                    </p>
-                    
-                    <a class="center" href="https://vexdb.io/teams/view/200G" target="_blank">https://vexdb.io/teams/view/200G</a>
-                </div>
-				
-                <div class="col-sm-3">
-                    <p class="center">
-                        200H
-                    </p>
-                    
-                    <a class="center" href="https://vexdb.io/teams/view/200H" target="_blank">https://vexdb.io/teams/view/200H</a>
+                <div class="col-sm-8 nopad">
+                    <img src="../media/special/special.png">
                 </div>
             </div>
         </div>
+
+        <!-- Footer -->
+        <div class="foot">
+            <div class="row padded">
+                <!-- Team information -->
+                <div class="col-sm-4">
+                    <h2>
+                        Contact Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="mailto:lancebotics@gmail.com" target="_blank">
+                            LanceBotics@gmail.com <img src="../media/special/arrowGreen.png">
+                        </a>
+                        <br>
+                        416-396-2380 Ext: 20115
+                    </p>
+
+                    <h2>
+                        Connect with Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="https://www.youtube.com/channel/UCjgJsgbScXAeaFQKKcyPbvw" target="_blank">
+                            <img class="social facebook" src="../media/logos/youtube.png">
+
+                            YouTube <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="https://www.instagram.com/200_lancebotics/" target="_blank">
+                            <img class="social" src="../media/logos/instagram.png">
+
+                            Instagram <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                        
+                        <a class="green greenlink" href="https://twitter.com/200_lancebotics" target="_blank">
+                            <img class="social" src="../media/logos/twitter.png">
+
+                            Twitter <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                            
+                        <a class="green greenlink" href="https://www.facebook.com/lancebotics200/" target="_blank">
+                            <img class="social" src="../media/logos/facebook.png">
+
+                            Facebook <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
                     
-        <div class="footer row">
-            <div class="col-sm-6">
-                <p class="center">
-                    Designed with <a href="getbootstrap.com" target="_blank">Bootstrap</a>
-                </p>
+                    <h2>
+                        Organization
+                    </h2>
+
+                    <p class="left">
+                        Leaside High School
+                        <br>
+                        Staff Advisor: Vincent Lu
+                        <br>
+                        Principal: Marisa Cocco
+                        <br>
+                        Vice Principals: Rosanna Kerigan and Barbara Nixon 
+                        <br>
+                        <a href="https://schoolweb.tdsb.on.ca/leasidehs" target="_bank" class="green greenlink">
+                            School Website <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+
+                <!-- School location on map -->
+                <div class="col-sm-4 connect">
+                    <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11535.875807364917!2d-79.372426!3d43.7111943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc81d16dcb1d2dfab!2sLeaside+High+School!5e0!3m2!1sen!2sbd!4v1566381482720!5m2!1sen!2sbd" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Website links -->
+                <div class="col-sm-4 right">
+                    <h2>
+                        Website Portal
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="../index.html">
+                            Home <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="teams.html">
+                            Teams <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="vex.html">
+                            VEX <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="community.html">
+                            Community <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="gallery.html">
+                            Gallery <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="competitions.html">
+                            Competitions <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="awards.html">
+                            Awards <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="sponsors.html">
+                            Sponsors <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+
+                    <br>
+
+                    <h2>
+                        Website Archive
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="archives/lancebotics2018/index.html" target="_blank">
+                            2018 - 2019 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2017/index.html" target="_blank">
+                            2017 - 2018 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2016/index.html" target="_blank">
+                            2016 - 2017 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2015/index.html" target="_blank">
+                            2015 - 2016 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2014/Index.html" target="_blank">
+                            2014 - 2015 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
             </div>
 
-            <div class="col-sm-6">
-                <p class="center">
-                    LanceBotics 2019
-                </p> 
+            <!-- Footer ending -->
+            <div class="row center blackback">
+                <div class="col-sm-6">
+                    <br>
+
+                    <p>
+                        <a href="https://getbootstrap.com" class="green greenlink" target="_bank">
+                            Made with Bootstrap <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+    
+                <div class="col-sm-6">
+                    <br>
+                    
+                    <p class="green">
+                        Lancebotics 2019 - 2020
+                    </p>
+                </div>
             </div>
         </div>
     </body>

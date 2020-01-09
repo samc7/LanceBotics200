@@ -1,326 +1,509 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <title>
             LanceBotics 200 | A VEX Robotics Team from Toronto, Canada
         </title>
         
-        <link rel="icon" href="../image/yellowforkliftsmall.PNG">
-        
+        <!-- Tab icon -->
+        <link rel="icon" href="../media/logos/LanceBotics/LBIcon.png">
+
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- Bootstrap scripts -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+        <!-- Custom CSS -->
         <link rel="stylesheet" href="../css/style.css">
     </head>
-  
+
     <body>
-        <!-- Start of nagivation panel-->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            <div class="container-fluid">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="../index.html"><img class="logo" src="../image/yellowforklift.png"></a>
-                </div>
+        <!-- Heading Section -->
+        <div class="nonstick">
+            <!-- Heading logo -->
+            <a href="../index.html">
+                <img class="logo" src="../media/logos/LanceBotics/LBLong.png">
+            </a>
+            <br>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="../index.html">
-                                Home
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="vex.html">
-                                VEX
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="sponsors.html">
-                                Sponsors
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="awards.html">
-                                Awards
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="competitions.html">
-                                Competitions
-                            </a>
-                        </li>
-
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Teams
-                                <span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="teams.html">
-                                        Teams
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200X.html">
-                                        200X
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200C.html">
-                                        200C
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="200G.html">
-                                        200G
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="200H.html">
-                                        200H
-                                    </a>
-                                </li>
-                              
-                                <li>
-                                    <a href="alumni.html">
-                                        Alumni
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="contact.html">
-                                Contact
-                            </a>
-                        </li>
-
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown">
-                                Archives
-                                <span class="caret"></span>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="archives/lancebotics2017/index.html" target="_blank">
-                                        2017 - 2018 Website
-                                    </a>
-                                </li>
-                                
-                                <li>
-                                    <a href="archives/lancebotics2016/index.html" target="_blank">
-                                        2016 - 2017 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2015/index.html" target="_blank">
-                                        2015 - 2016 Website
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="archives/lancebotics2014/Index.html" target="_blank">
-                                        2014 - 2015 Website
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- End of nagivation panel-->
-      
-        <div class="main">
-            <h2>
-               Alumni
+            <h2 class="green">
+                Representing Toronto and Canada at the VEX World Championship for over 4 years
             </h2>
-            <hr>
-            <p>
-                These are former LanceBotics members who have passed on their STEM skills and knowledge to current LanceBotics members throughout the years.
-                These Leaside High School graduates are proud of LanceBotics' success throughout the year, and some provide further support through funding and mentoring. 
-                We thank them for their hard work, for mentoring us, and for being great role models to follow.
-            </p>
-            <hr>
- 
-            <div class="row">
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/SaharA.jpg">
-                    
-                    <h2 class="name">
-                        Sahar Abdalla
-                    </h2>
-			
-					<p class="center">
-						Computer Engineering at University of Toronto (2017 - 2021)
-					</p>
-                </div>
-	    
-	    		<div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/ZachB.jpg">
-                    
-                    <h2 class="name">
-                        Zach Bolté
-                    </h2>
-			
-					<p class="center">
-						Mechatronic Systems Engineering at University of Western Ontario (2017 - 2021)
-					</p>
-                </div>
-                
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/StanleyD.jpg">
-                    
-                    <h2 class="name">
-                        Stanley Dimitrov
-                    </h2>
-			
-					<p class="center">
-						Mechatronics Engineering at University of Ontario Institute of Technology (2018 - 2022)
-					</p>
-                </div>
-				
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/MatthewG.jpg">
-                    
-                    <h2 class="name">
-                        Matthew Gehring
-                    </h2>
-			
-					<p class="center">
-						
-					</p>
-                </div>
-            </div>
-            
-            <hr>
-            
-			<div class="row">
-	    		<div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/DanielG.jpg">
-                    
-                    <h2 class="name">
-                        Daniel Green
-                    </h2>
-			
-					<p class="center">
-						Queen's University (2018 - 2022)
-					</p>
-                </div>
-                
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/EthanH.jpg">
-                    
-                    <h2 class="name">
-                        Ethan Hall
-                    </h2>
-			
-					<p class="center">
-						
-					</p>
-                </div>
-                
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/NathanL.jpg">
-                    
-                    <h2 class="name">
-                        Nathan Lee
-                    </h2>
-			
-					<p class="center">
-						Electrical Engineering at University of Ottawa
-					</p>
-                </div>
-                
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/SpencerP.jpg">
-                    
-                    <h2 class="name">
-                        Spencer Ploeger
-                    </h2>
-			
-					<p class="center">
-						
-					</p>
-                </div>
-            </div>
-            
-            <hr>
-			
-			<div class="row">
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/JoshuaT.jpg">
-                    
-                    <h2 class="name">
-                        Joshua Tam
-                    </h2>
-			
-					<p class="center">
-						Smith School of Business at Queen's University
-					</p>
-                </div>
-				
-                <div class="col-sm-3">
-                    <img class ="mrv" src ="../image/members/RomonW.jpg">
-                    
-                    <h2 class="name">
-                        Romon Wafa
-                    </h2>
-			
-					<p class="center">
-						Computing & Information Systems at Trent University (2018 - 2022)
-					</p>
-                </div>
-            </div>
-			
-			<hr>
-			
-            <div class="row">
-                    <p class="center">
-                        Interested in joining LanceBotics? Learn more <a href="teams.html">here</a>.
-                    </p>
-            </div>  
         </div>
 
-        <hr>
-		
-        <div class="footer row">
-            <div class="col-sm-6">
-                <p class="center">
-                    Designed with <a href="getbootstrap.com" target="_blank">Bootstrap</a>
-                </p>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+            <!-- Navbar logo -->
+            <ul class="navbar-nav">
+                <!-- Links to pages -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+            </ul>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible items -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links to pages -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="teams.html">Teams</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="vex.html">VEX</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="community.html">Community</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="competitions.html">Competitions</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="awards.html">Awards</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="sponsors.html">Sponsors</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
+
+        <div class="main">
+            <hr class="hryellow">
+
+            <div class="row">
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/alumni0.jpg">
+                </div>
                 
-            <div class="col-sm-6">
-                <p class="center">
-                    LanceBotics 2019
-                </p>
-            </div> 
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/alumni2.jpg">
+                </div>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/alumni1.jpg">
+                </div>
+
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/alumni3.jpg">
+                </div>
+            </div>
+            
+
+            <div class="row yellowback">
+                <div class="col-sm-12">
+                    <br>
+                    
+                    <h1 class="center green">
+                        Mentors and Alumni
+                    </h1>
+
+                    <div class="row">
+                        <div class="col-sm-2">
+                        </div>
+    
+                        <div class="col-sm-8">
+                            <p class="justify black">
+                                These are our Mentors and Alumni. Most are graduated Leaside Students who currently pursue careers in STEM related fields, while others continually support us through mentorship and even funding for the team. We thank them for all they have done for us, for without them, we would not have become the outstanding robotics team we are today. 
+                            </p>
+                        </div>
+                    </div>
+
+                    <br>
+                </div>
+            </div>
+
+            <div class="row nopad">
+                <div class="col-sm-4 nopad">
+                    <img src="../media/members/mrv.jpg">
+                </div>
+
+                <div class="col-sm-8 textdivmargin textpad">
+                    <br>
+                    <h1 class="center">
+                        Mr. Vincent Lu
+                    </h1>
+
+                    <h2 class="white center">
+                        Staff Advisor
+                    </h2>
+                    
+                    <br>
+
+                    <p class="justify white">
+                        When it comes to the member with the utmost commitment and dedication, there are none who equate to that of Mr. Lu. Even outside the robotics room and competitions, his efforts as a teacher surpass many others’, spending entire lunch periods at school providing extra help to computer science students. Mr. Lu’s efforts as a robotics mentor had started long before the foundation of LanceBotics, when he was a teacher at Don Mills Collegiate Institute. He was the Staff Advisor for their school’s robotics team -- Team 2505 The Electric Sheep -- and although he had switched schools, his commitment to providing students with STEM experience was brought with him. He has spent countless hours organizing funding, planning for competitions, mentoring each team, and most importantly, supporting us through our journey in VEX as well as in High School. The team will never forget the times he’s worked nonstop to make sure our teams were all prepared, notably when the hotel we had booked for the World Championship had informed us of overbooking as we were on our way to the competition. Whilst still en route, Mr. Lu had made four-hours-worth of phone calls, and had managed to find us a hotel relatively close to the competition venue. He had lost his voice, but he did it for us. It’s clear that if it wasn’t for him, we wouldn’t have even competed at this past season’s World Championship. From the bottom of our hearts, we appreciate all that he has done for us, and wish him the best in the coming years as he continues to teach and mentor new students. Although four years is a long time, it is not enough for us to learn all that we can from him as our role model. Thank you Mr. Lu!
+                    </p>
+                </div>
+            </div>
+
+            <hr class="hryellow">
+
+            <div class="row nopad">
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/SaharA.jpg">
+                    
+                    <br>
+
+                    <h1 class="center">
+                        Sahar Abdalla
+                    </h1>
+
+                    <p class=" white center">
+                        Computer Engineering at University of Toronto (2017 - 2021)
+                    </p>
+                </div>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/ZachB.jpg">
+                    
+                    <br>
+
+                    <h1 class="center textpad">
+                        Zach Bolté
+                    </h1>
+
+                    <p class=" white center textpad">
+                        Mechatronic Systems Engineering at University of Western Ontario (2017 - 2021)
+                    </p>
+                </div>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/StanleyD.jpg">
+                    
+                    <br>
+
+                    <h1 class="center textpad">
+                        Stanley Dimitrov
+                    </h1>
+
+                    <p class="white center textpad">
+                        Mechatronics Engineering at University of Ontario Institute of Technology (2018 - 2022)
+                    </p>
+                </div>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/MatthewG.jpg">
+                    
+                    <br>
+
+                    <h1 class="center textpad">
+                        Matthew Gehring
+                    </h1>
+
+                    <p class=" white center textpad">
+                        Founder of Panther Security Solutions
+                    </p>
+                </div>
+            </div>
+
+            <br>
+            
+            <div class="row nopad">
+                <div class="col-sm-3 nopad">
+                    <img style="width:100%;"src="../media/members/alumni/DanielG.jpg">
+                    
+                    <br>
+
+                    <h1 class="center">
+                        Daniel Green
+                    </h1>
+
+                    <p class=" white center">
+                        Queen's University (2018 - 2022)
+                    </p>
+                </div>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/EthanH.jpg">
+                    
+                    <br>
+
+                    <h1 class="center textpad">
+                        Ethan Hall
+                    </h1>
+                </div>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/NathanL.jpg">
+                    
+                    <br>
+
+                    <h1 class="center textpad">
+                        Nathan Lee
+                    </h1>
+
+                    <p class="white center textpad">
+                        Electrical Engineering at University of Ottawa
+                    </p>
+                </div>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/NadiaN.jpg">
+                    
+                    <br>
+
+                    <h1 class="center textpad">
+                        Nadia Nguyen
+                    </h1>
+
+                    <p class="white center textpad">
+                        Biomedical Engineering at University of Waterloo (2019 - 2024)
+                    </p>
+                </div>
+            </div>
+
+            <br>
+            
+            <div class="row nopad">
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/SpencerP.jpg">
+                    
+                    <br>
+
+                    <h1 class="center textpad">
+                        Spencer Ploeger
+                    </h1>
+                </div>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/JoshuaT.jpg">
+                    
+                    <br>
+
+                    <h1 class="center textpad">
+                        Joshua Tam
+                    </h1>
+
+                    <p class="white center textpad">
+                        Smith School of Business at Queen's University
+                    </p>
+                </div>
+                
+                <div class="col-sm-3 nopad">
+                    <img src="../media/members/alumni/RomonW.jpg">
+                    
+                    <br>
+
+                    <h1 class="center textpad">
+                        Romon Wafa
+                    </h1>
+
+                    <p class="white center textpad">
+                        Computing & Information Systems at Trent University (2018 - 2022)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="foot">
+            <div class="row padded">
+                <!-- Team information -->
+                <div class="col-sm-4">
+                    <h2>
+                        Contact Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="mailto:lancebotics@gmail.com" target="_blank">
+                            LanceBotics@gmail.com <img src="../media/special/arrowGreen.png">
+                        </a>
+                        <br>
+                        416-396-2380 Ext: 20115
+                    </p>
+
+                    <h2>
+                        Connect with Us
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="https://www.youtube.com/channel/UCjgJsgbScXAeaFQKKcyPbvw" target="_blank">
+                            <img class="social facebook" src="../media/logos/youtube.png">
+
+                            YouTube <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="https://www.instagram.com/200_lancebotics/" target="_blank">
+                            <img class="social" src="../media/logos/instagram.png">
+
+                            Instagram <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                        
+                        <a class="green greenlink" href="https://twitter.com/200_lancebotics" target="_blank">
+                            <img class="social" src="../media/logos/twitter.png">
+
+                            Twitter <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+                            
+                        <a class="green greenlink" href="https://www.facebook.com/lancebotics200/" target="_blank">
+                            <img class="social" src="../media/logos/facebook.png">
+
+                            Facebook <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                    
+                    <h2>
+                        Organization
+                    </h2>
+
+                    <p class="left">
+                        Leaside High School
+                        <br>
+                        Staff Advisor: Vincent Lu
+                        <br>
+                        Principal: Marisa Cocco
+                        <br>
+                        Vice Principals: Rosanna Kerigan and Barbara Nixon 
+                        <br>
+                        <a href="https://schoolweb.tdsb.on.ca/leasidehs" target="_bank" class="green greenlink">
+                            School Website <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+
+                <!-- School location on map -->
+                <div class="col-sm-4 connect">
+                    <iframe class="footmap" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11535.875807364917!2d-79.372426!3d43.7111943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc81d16dcb1d2dfab!2sLeaside+High+School!5e0!3m2!1sen!2sbd!4v1566381482720!5m2!1sen!2sbd" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+
+                <!-- Website links -->
+                <div class="col-sm-4 right">
+                    <h2>
+                        Website Portal
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="../index.html">
+                            Home <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="teams.html">
+                            Teams <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="vex.html">
+                            VEX <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="community.html">
+                            Community <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="gallery.html">
+                            Gallery <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="competitions.html">
+                            Competitions <img src="../media/special/arrowGreen.png">
+                        </a>
+                        
+                        <br>
+
+                        <a class="green greenlink" href="awards.html">
+                            Awards <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="sponsors.html">
+                            Sponsors <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+
+                    <br>
+
+                    <h2>
+                        Website Archive
+                    </h2>
+
+                    <p>
+                        <a class="green greenlink" href="archives/lancebotics2018/index.html" target="_blank">
+                            2018 - 2019 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2017/index.html" target="_blank">
+                            2017 - 2018 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2016/index.html" target="_blank">
+                            2016 - 2017 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2015/index.html" target="_blank">
+                            2015 - 2016 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+
+                        <br>
+
+                        <a class="green greenlink" href="archives/lancebotics2014/Index.html" target="_blank">
+                            2014 - 2015 Season <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Footer ending -->
+            <div class="row center blackback">
+                <div class="col-sm-6">
+                    <br>
+
+                    <p>
+                        <a href="https://getbootstrap.com" class="green greenlink" target="_bank">
+                            Made with Bootstrap <img src="../media/special/arrowGreen.png">
+                        </a>
+                    </p>
+                </div>
+    
+                <div class="col-sm-6">
+                    <br>
+                    
+                    <p class="green">
+                        Lancebotics 2019 - 2020
+                    </p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
