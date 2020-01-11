@@ -66,6 +66,10 @@ Yellow: #F1C439
     padding: 0 20px 0 20px;
 }
 
+.botpad {
+    padding-bottom: 10px;
+}
+
 .nopad {
     padding: 0 0 0 0;
 }
