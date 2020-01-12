@@ -56,6 +56,9 @@ Yellow: #F1C439
     text-justify: inter-word;
 }
 
+.indent {
+    text-indent: 50px;
+}
 .textdivmargin {
     padding: 0 0 0 0;
     margin-top: auto;
@@ -182,9 +185,6 @@ h2 {
 }
 
 .curved {
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
     width: 90%;
 }
 
