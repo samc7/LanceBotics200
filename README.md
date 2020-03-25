@@ -13,9 +13,9 @@ of the space on screens for content, and there was extra space everywhere. So I 
 website space?"
 
 While designing the website, I was told by some that it was "abnormal" and that I should've stuck to a simpler, classic and cliche 
-design. But as new screens on phones push to the edge of their housing and new TVs have almost no bezels, it's only normal for us 
+design. But as new screens on phones push to the edge of their housing, and new TVs have almost no bezels, it's only normal for us 
 to adjust our website content to fit this new push towards using all the space we have available.
 
 I hope you enjoy reading about my team as much as I enjoyed developing this website and participating on this wonderful team!
 
-[Current Website](http://lancebotics200.ca)
+[Current Offcial Website](http://lancebotics200.ca)
